@@ -14,6 +14,7 @@ OK Finish About Us
 OK Finish Join Us
 OK Add copyright at end of each page
 OK Deploy to GitHub Pages
+Add Decor to pages
 Accessibility - "skip nav" on focus
 Join page email
 About page (last team member info)
