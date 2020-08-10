@@ -38,6 +38,6 @@ N/A
 Add on :)
 
 # Credits (and Inspiration)
-@maureento8888
-@saideep21
+- @maureento8888
+- @saideep21
 Add on :)
