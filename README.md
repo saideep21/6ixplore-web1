@@ -33,9 +33,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 N/A
 
 # Contributors
-@maureento8888 - UI/UX Designer, front-end developer
-Minh H.
-Shirley X.
+- @maureento8888 - UI/UX Designer, front-end developer
+- our two devs!
 Add on :)
 
 # Credits (and Inspiration)
