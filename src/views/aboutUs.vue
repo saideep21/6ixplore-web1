@@ -93,7 +93,7 @@
           </div>
           <p>
             Minh is a Minimum Viable Product (MVP) developer with a passion for
-            good code, focused on efficiency, and a love for new projects.
+            good code, focused on efficiency, with a love for new projects.
           </p>
         </div>
         <div class="member5B">
@@ -105,7 +105,6 @@
             </div>
           </div>
           <p>N/A</p>
-          <!-- <p>N/A</p> -->
         </div>
         <div class="member5C">
           <div class="info">
@@ -116,8 +115,8 @@
             </div>
           </div>
           <p>
-            Shirley is a skilled and versatile software developer with with more
-            than two years of professional experiences in working with business
+            Shirley is a skilled and versatile software developer with more
+            than two years of professional experience in working with business
             owners and clients to deliver high-quality, well-tested software
             applications. She is always learning and looking to use her skills
             to contribute to the community.
@@ -159,7 +158,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.625em 0 1.625em;
+  padding: 0 1.625em;
 }
 
 .body-text {
@@ -167,7 +166,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
-  padding: 0 2em 0 2em;
+  padding: 0 2em;
   text-align: center;
 }
 
