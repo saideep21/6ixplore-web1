@@ -41,7 +41,7 @@ Add on :)
 
 # RULES
 For copy (text) changes, add to [text.md](text.md) first!!!
-Always check or skim the [todo.txt] for TODOs - helps gain familiarity before getting your grabby hands on :D
+Always check or skim the [todo.txt](todo.md) for TODOs - helps gain familiarity before getting your grabby hands on :D
 
 # Credits (and Inspiration)
 - @maureento8888
