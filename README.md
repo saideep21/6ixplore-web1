@@ -2,7 +2,7 @@
 
 This repo is the home of our first website for LinkedIn and recruitment purposes!
 
-<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code. See [todo.txt](../todo.txt)
+<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code. See [todo.txt](todo.txt)
 
 Built with:
 - Vue.js
