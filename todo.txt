@@ -1,0 +1,17 @@
+OK Insert copy
+OK create CSS vars for brand colours
+OK set container to equalize margins
+OK Set z-index stack for navbar (middle), navModal (highest), and background decor (lowest)
+OK Components:
+	OK Finish navBar
+	OK Finish navModal
+	OK Finish Features
+OK Adjust copy padding
+OK Contain headshot imgs with name and title
+OK Set favicon
+OK Finish Home
+Finish About Us
+Finish Join Us
+Accessibility - "skip nav" on focus
+OK Add copyright at end of each page
+Deploy to GitHub Pages
