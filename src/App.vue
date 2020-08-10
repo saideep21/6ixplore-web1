@@ -1,32 +1,52 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div class="body">
+    <navBar />
     <router-view />
   </div>
 </template>
 
+<script>
+import navBar from "@/components/navBar.vue";
+
+export default {
+  data: () => ({}),
+  components: {
+    navBar
+  }
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: Poppins, Arial, "Open Sans";
+  text-decoration: none;
 }
 
-#nav {
-  padding: 30px;
+/* CSS Variables */
+:root {
+  /* General */
+  --bg-clr: #ffffff;
+  /* Brand */
+  --primary-clr: #d34141;
+  /* Typography */
+  --txt-length: 60ch;
+  --primary-txt: #1c1c1c;
+  --secondary-txt: #484848;
+  --accent-txt: #ffffff;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.body {
+  display: flex;
+  flex-direction: column;
 }
 </style>
