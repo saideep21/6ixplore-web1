@@ -2,7 +2,7 @@
 
 This repo is the home of our first website for LinkedIn and recruitment purposes!
 
-NOTE: Will be updated regularly for enchancements to UI and cleaner code.
+<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code.
 
 Built with:
 - Vue.js
