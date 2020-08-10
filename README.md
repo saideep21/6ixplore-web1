@@ -37,7 +37,7 @@ N/A
 # Contributing
 - [@maureento8888](https://github.com/maureento8888) - UI/UX Designer, front-end developer
 - our two devs!
-Add on :)
+- Add on :)
 
 # RULES
 - For copy (text) changes, add to [text.md](text.md) first!!!
@@ -46,4 +46,4 @@ Add on :)
 # Credits (and Inspiration)
 - [@maureento8888](https://github.com/maureento8888)
 - [@saideep21](https://github.com/saideep21)
-Add on :)
+- Add on :)
