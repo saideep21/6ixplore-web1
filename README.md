@@ -2,7 +2,9 @@
 
 This repo is the home of our first website for LinkedIn and recruitment purposes!
 
-<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code. See [todo.txt](todo.txt)
+<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code.
+- See [todo.txt](todo.txt) for list of TODOs
+- See [text.md[(text.md) for copy changes
 
 Built with:
 - Vue.js
@@ -36,6 +38,10 @@ N/A
 - @maureento8888 - UI/UX Designer, front-end developer
 - our two devs!
 Add on :)
+
+# RULES
+For copy (text) changes, add to [text.md](text.md) first!!!
+Always check or skim the [todo.txt] for TODOs - helps gain familiarity before getting your grabby hands on :D
 
 # Credits (and Inspiration)
 - @maureento8888
