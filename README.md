@@ -2,7 +2,7 @@
 
 This repo is the home of our first website for LinkedIn and recruitment purposes!
 
-<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code.
+<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code. See [todo.txt](../todo.txt)
 
 Built with:
 - Vue.js
@@ -32,7 +32,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # License
 N/A
 
-# Contributors
+# Contributing
 - @maureento8888 - UI/UX Designer, front-end developer
 - our two devs!
 Add on :)
