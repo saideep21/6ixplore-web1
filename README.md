@@ -35,7 +35,7 @@ See [Vuejs' Configuration Reference](https://cli.vuejs.org/config/).
 N/A
 
 # Contributing
-- @maureento8888 - UI/UX Designer, front-end developer
+- [@maureento8888](https://github.com/maureento8888) - UI/UX Designer, front-end developer
 - our two devs!
 Add on :)
 
@@ -44,6 +44,6 @@ Add on :)
 - Always check or skim the [todo.txt](todo.md) for TODOs - helps gain familiarity before getting your grabby hands on :D
 
 # Credits (and Inspiration)
-- @maureento8888
+- [@maureento8888](https://github.com/maureento8888)
 - [@saideep21](https://github.com/saideep21)
 Add on :)
