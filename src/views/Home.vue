@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- Hero -->
-    <main id="skip-nav" class="hero body-text">
+    <main id="skip-nav" class="hero">
       <div class="content">
         <h1>Discover locally, instantly</h1>
         <p class="secondary-text">
@@ -86,14 +86,11 @@ export default {
   padding: 0 1.625em;
 }
 
-.body-text {
-  margin-top: 10em;
-}
-
 .hero {
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-top: 10em;
 }
 
 .eyebrow-text,
