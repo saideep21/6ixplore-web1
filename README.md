@@ -7,7 +7,7 @@ NOTE: Will be updated regularly for enchancements to UI and cleaner code.
 Built with:
 - Vue.js
 - HTML/CSS
-- 2 days' sprint by @maureento8888 😄
+- 2 days' sprint and late night by @maureento8888 😄
 
 # Getting Started
 ## Project setup
@@ -34,6 +34,8 @@ N/A
 
 # Contributors
 @maureento8888 - UI/UX Designer, front-end developer
+Minh H.
+Shirley X.
 Add on :)
 
 # Credits (and Inspiration)
