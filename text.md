@@ -7,13 +7,15 @@ Font: Poppins
 
 ### Hero
 
-An experience led to an idea
-
 Discover locally, instantly
 
-It all started when a university student began looking for taste experiences that matched the pocket.
+Curious About Our Team?
+Find Out More
 
 ### Body
+
+An experience led to an idea
+It all started when a university student began looking for taste experiences that matched the pocket.
 
 What started off as an individual quest to discover the hidden gems of Toronto, turned into a mission to create a platform designed to support our local businesses. Toronto - the “6ix” - has a wealth of spots that serve up food or beverage or cultural or entertainment experiences that one would easily overlook and walk past, simply because it was not in plain sight or one did not know about it. This little bit of technology connects your tastes with an experience that matches your pocket, instantly.
 
