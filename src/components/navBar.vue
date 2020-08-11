@@ -6,21 +6,17 @@
           <img class="logo" :src="logo" alt="6ixplore - Discover locally, instantly" />
         </router-link>
       </header>
-      <!-- Accessiblity: Skip Nav -->
+      <!-- Add accessiblity: Skip Nav :focus -->
       <template v-for="link in navLinks">
         <router-link :to="{ name: link }" :key="link">{{ link }}</router-link>
       </template>
       <navModal />
     </nav>
     <!-- <img class="decor-home" :src="webDecorHome" alt /> -->
-    <!-- Accessiblity: Skip To Content -->
+    <!-- Add accessiblity: Skip To Content -->
   </div>
 </template>
 
-<!-- NOTES ON HOME TEXT REDO
-- 1 line: discover locally, instantly
-- 
- -->
 <script>
 import navModal from "@/components/navModal.vue";
 import webDecorHome from "@/assets/webDecorHome.svg";
@@ -42,7 +38,11 @@ export default {
 
 <style scoped>
 .container {
+<<<<<<< HEAD
   padding: 0 1.625em 0 1.625em;
+=======
+  padding: 0 1.625em;
+>>>>>>> 1bec2abf46a41609c63003e348aabdc3ea5258b4
 }
 
 .navigation {

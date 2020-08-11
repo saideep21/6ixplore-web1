@@ -9,7 +9,6 @@
 import navBar from "@/components/navBar.vue";
 
 export default {
-  data: () => ({}),
   components: {
     navBar
   }

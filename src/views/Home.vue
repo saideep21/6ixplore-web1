@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- Hero -->
-    <main id="skip-nav" class="hero body-text">
+    <main id="skip-nav" class="hero">
       <div class="content">
         <h1>Discover locally, instantly</h1>
         <p class="secondary-text">
@@ -83,17 +83,14 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.625em 0 1.625em;
-}
-
-.body-text {
-  margin-top: 10em;
+  padding: 0 1.625em;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-top: 10em;
 }
 
 .eyebrow-text,
@@ -149,7 +146,7 @@ button {
   border: none;
   text-align: left;
   line-height: 1.125em;
-  padding: 1em 1.875em 1em 1.875em;
+  padding: 1em 1.875em;
   cursor: pointer;
 }
 
@@ -174,7 +171,8 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  .hero {
+  .hero,
+  .illustration-person {
     display: flex;
   }
 
@@ -183,7 +181,6 @@ h4 {
   }
 
   .illustration-person {
-    display: flex;
     margin: 0 auto;
   }
 

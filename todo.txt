@@ -10,8 +10,13 @@ OK Adjust copy padding
 OK Contain headshot imgs with name and title
 OK Set favicon
 OK Finish Home
-Finish About Us
-Finish Join Us
-Accessibility - "skip nav" on focus
+OK Finish About Us
+OK Finish Join Us
 OK Add copyright at end of each page
-Deploy to GitHub Pages
+OK Deploy to GitHub Pages
+Add Decor to pages
+Add Our Values
+Add blockquote for Join page
+Accessibility - "skip nav" on focus
+Join page email
+About page (last team member info)

@@ -7,13 +7,15 @@ Font: Poppins
 
 ### Hero
 
-An experience led to an idea
-
 Discover locally, instantly
 
-It all started when a university student began looking for taste experiences that matched the pocket.
+Curious About Our Team?
+Find Out More
 
 ### Body
+
+An experience led to an idea
+It all started when a university student began looking for taste experiences that matched the pocket.
 
 What started off as an individual quest to discover the hidden gems of Toronto, turned into a mission to create a platform designed to support our local businesses. Toronto - the “6ix” - has a wealth of spots that serve up food or beverage or cultural or entertainment experiences that one would easily overlook and walk past, simply because it was not in plain sight or one did not know about it. This little bit of technology connects your tastes with an experience that matches your pocket, instantly.
 
@@ -49,6 +51,7 @@ We are a team full of dynamic individuals determined to make a positive impact f
 
 ### Meet Our Team
 
+<<<<<<< HEAD
 Saideep Kumar
 CEO and Founder
 Saideep Kumar is a budding student entrepreneur who is taking his venture live in 2020. He has nurtured his idea for over 2 and a half years since when he came to the beautiful city of Toronto from India. The team, assembled from scratch, has readied the delivery platform for launch. Equal importance is given to team chemistry and to team productivity. The values of empathy and diversity are as dear to Saideep as are his ambition and commitment.
@@ -73,9 +76,37 @@ Timothy Samson
 Strategy
 TEXT
 
-Shirley Xia
-Full-stack Developer
+# Shirley Xia
+
+Saideep K.
+CEO and Founder
+Saideep is a budding student entrepreneur who is taking his venture live in 2020. He has nurtured his idea for over 2 and a half years since when he came to the beautiful city of Toronto from India. The team, assembled from scratch, has readied the delivery platform for launch. Equal importance is given to team chemistry and to team productivity. The values of empathy and diversity are as dear to Saideep as are his ambition and commitment.
+
+Minh H.
+iOS Developer
+Minh is a Minimum Viable Product (MVP) developer with a passion for good code, focused on efficiency, and a love for new projects.
+
+Kay O.
+UX Researcher
+With her master’s degree in psychology and knowledge in UX, Kay brings a genuine curiosity and keen eye for detail in the research and design of our product to ensure it meets our user’s needs. As the lead researcher, she meticulously ensures that our users come first while achieving our business’ objectives. With her versatile skills, she is a true team player as she also lends a hand to our social media and HR as we actively grow our company.
+
+Maureen T.
+UI/UX Designer
+A lifelong learner at heart, Maureen is a Kinesiology-student turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
+
+Clayon L.
+Operations Coordinator
+Clayon is a recent UofT graduate whose passion lies in enhancing the student experience. Using the knowledge he gained from his B.Comm degree in Accounting, Clayon is responsible for the design and implementationof the accounting, legal, and charity frameworks of the organization. Having come to Canada within the last few years, he hopes everyone is able to explore the diverse cuisines available just as much as he has!
+
+Timothy S.
+Strategy
 TEXT
+
+Shirley X.
+
+> > > > > > > 1bec2abf46a41609c63003e348aabdc3ea5258b4
+> > > > > > > Full-stack Developer
+> > > > > > > TEXT
 
 ### Our Values
 
@@ -107,8 +138,15 @@ We are all about teamwork.
 
 Please send a copy of your resume to apply!
 
+<<<<<<< HEAD
 General Address: ADDRESS@MAIL.COM
 
-NOTE: We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
+# NOTE: We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
+
+General Address: - - -
+
+<strong>NOTE:</strong> We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
+
+> > > > > > > 1bec2abf46a41609c63003e348aabdc3ea5258b4
 
 Thank you for applying! You’ll hear back from us in a couple days.

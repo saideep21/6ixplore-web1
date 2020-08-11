@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.625em 0 1.625em;
+  padding: 0 1.625em;
 }
 
 .body-text {
@@ -67,7 +67,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
-  padding: 0 2em 0 2em;
+  padding: 0 2em;
   text-align: center;
 }
 
