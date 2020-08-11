@@ -49,31 +49,31 @@ We are a team full of dynamic individuals determined to make a positive impact f
 
 ### Meet Our Team
 
-Saideep Kumar
+Saideep K.
 CEO and Founder
-Saideep Kumar is a budding student entrepreneur who is taking his venture live in 2020. He has nurtured his idea for over 2 and a half years since when he came to the beautiful city of Toronto from India. The team, assembled from scratch, has readied the delivery platform for launch. Equal importance is given to team chemistry and to team productivity. The values of empathy and diversity are as dear to Saideep as are his ambition and commitment.
+Saideep is a budding student entrepreneur who is taking his venture live in 2020. He has nurtured his idea for over 2 and a half years since when he came to the beautiful city of Toronto from India. The team, assembled from scratch, has readied the delivery platform for launch. Equal importance is given to team chemistry and to team productivity. The values of empathy and diversity are as dear to Saideep as are his ambition and commitment.
 
-Minh Huynh
+Minh H.
 iOS Developer
-Minimum Viable Product (MVP) developer with a passion for good code, focused on efficiency, and love for new projects.
+Minh is a Minimum Viable Product (MVP) developer with a passion for good code, focused on efficiency, and a love for new projects.
 
-Kay Otsubo
+Kay O.
 UX Researcher
 With her master’s degree in psychology and knowledge in UX, Kay brings a genuine curiosity and keen eye for detail in the research and design of our product to ensure it meets our user’s needs. As the lead researcher, she meticulously ensures that our users come first while achieving our business’ objectives. With her versatile skills, she is a true team player as she also lends a hand to our social media and HR as we actively grow our company.
 
-Maureen T'o
+Maureen T.
 UI/UX Designer
-A lifelong learner at heart, Maureen T'o is a Kinesiology-student turned passionate front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
+A lifelong learner at heart, Maureen is a Kinesiology-student turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
 
-Clayon Levy
+Clayon L.
 Operations Coordinator
 Clayon is a recent UofT graduate whose passion lies in enhancing the student experience. Using the knowledge he gained from his B.Comm degree in Accounting, Clayon is responsible for the design and implementationof the accounting, legal, and charity frameworks of the organization. Having come to Canada within the last few years, he hopes everyone is able to explore the diverse cuisines available just as much as he has!
 
-Timothy Samson
+Timothy S.
 Strategy
 TEXT
 
-Shirley Xia
+Shirley X.
 Full-stack Developer
 TEXT
 
@@ -107,8 +107,8 @@ We are all about teamwork.
 
 Please send a copy of your resume to apply!
 
-General Address: ADDRESS@MAIL.COM
+General Address: - - -
 
-NOTE: We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
+<strong>NOTE:</strong> We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
 
 Thank you for applying! You’ll hear back from us in a couple days.
