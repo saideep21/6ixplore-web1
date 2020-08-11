@@ -36,7 +36,7 @@ N/A
 
 # Contributing
 - [@maureento8888](https://github.com/maureento8888) - UI/UX Designer, front-end developer
-- our two devs!
+- [@EndBird](https://github.com/EndBird)
 - Add on :)
 
 # RULES
@@ -45,5 +45,6 @@ N/A
 
 # Credits (and Inspiration)
 - [@maureento8888](https://github.com/maureento8888)
+- [@EndBird](https://github.com/EndBird)
 - [@saideep21](https://github.com/saideep21)
 - Add on :)
