@@ -38,11 +38,7 @@ export default {
 
 <style scoped>
 .container {
-<<<<<<< HEAD
-  padding: 0 1.625em 0 1.625em;
-=======
   padding: 0 1.625em;
->>>>>>> 1bec2abf46a41609c63003e348aabdc3ea5258b4
 }
 
 .navigation {
