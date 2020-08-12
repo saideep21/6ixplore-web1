@@ -60,7 +60,6 @@ export default {
   text-align: center;
 }
 
-
 .container {
   padding: 0 1.625em;
 }
