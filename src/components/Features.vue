@@ -2,7 +2,7 @@
   <div class="container">
     <h3>Our Features</h3>
     <div class="modal">
-      <img class="img-1" :src="step1" alt="Benefit 1" />
+      <img class="img-1" :src="step1" alt="Benefit for Customers" />
       <h3 class="heading-1">
         For our customers, we want to highlight our core benefits:
       </h3>
@@ -11,7 +11,7 @@
           <li>{{ item }}</li>
         </ul>
       </div>
-      <img class="img-2" :src="step2" alt="Benefit 2" />
+      <img class="img-2" :src="step2" alt="Benefit for Businesses" />
       <h3 class="heading-2">For businesses, this means:</h3>
       <div class="list-2">
         <ul v-for="item in businessBenefitsList" :key="item">
@@ -59,8 +59,9 @@ export default {
   gap: 1em;
   margin: 2em auto;
   padding: 1.5em 1.25em 1.5em 1.25em;
+  max-width: 40em;
   background: #ffffff;
-  box-shadow: -10px 10px 50px #d3d3d329;
+  box-shadow: 0px 25px 50px #d3d3d329;
   border-radius: 20px;
 }
 
