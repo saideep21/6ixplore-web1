@@ -15,7 +15,7 @@ OK Finish Join Us
 OK Add copyright at end of each page
 OK Deploy to GitHub Pages
 Add Decor to pages
-Add Our Values
+Add Our Values section
 Add blockquote for Join page
 Accessibility - "skip nav" on focus
 Join page email
