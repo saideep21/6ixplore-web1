@@ -13,7 +13,7 @@ OK Finish Home
 OK Finish About Us
 OK Finish Join Us
 OK Add copyright at end of each page
-OK Deploy to GitHub Pages
+OK Deploy to AWS EC2
 OK Add LinkedIn icon to Join page
 OK Add Decor to pages
 OK Add Our Values section
