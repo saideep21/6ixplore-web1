@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <!-- Hero -->
+    <img class="decor-home" :src="webDecorHome" alt="">
     <main id="skip-nav" class="hero">
       <div class="content">
         <h1>Discover locally, instantly</h1>
@@ -8,8 +9,8 @@
           We will help you discover experiences that you’ve missed at places
           perfectly suited to your mood, palate and pocket.
         </p>
-        <!-- Bug -->
         <img class="illustration-person" :src="illustrationPerson" alt />
+        <!-- CTA to /about -->
         <div class="CTA">
           <p>
             <strong>Curious About Our Team?</strong>
@@ -65,6 +66,7 @@
 </template>
 
 <script>
+import webDecorHome from "@/assets/webDecorHome.svg";
 import Features from "@/components/Features.vue";
 import illustrationPerson from "@/assets/illustrationPerson.svg";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
@@ -72,6 +74,7 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 export default {
   name: "Home",
   data: () => ({
+    webDecorHome,
     illustrationPerson,
     copyrightIcon
   }),
@@ -93,6 +96,15 @@ export default {
   margin-top: 10em;
 }
 
+.decor-home {
+  position: absolute;
+  top: 0;
+  right: -6em;
+  z-index: -1;
+  width: 65em;
+  height: auto;
+}
+
 .eyebrow-text,
 .secondary-text {
   color: var(--secondary-txt);
@@ -109,21 +121,12 @@ h1 {
   padding-bottom: 0.5em;
 }
 
-.paragraph-text,
-.illustration-person {
-  padding-bottom: 7em;
-}
-
-.paragraph-text {
-  max-width: var(--txt-length);
-  font-size: 0.875em;
-}
-
 .illustration-person {
   display: flex;
-  max-width: 23vw;
-  height: auto;
   margin: 0 auto;
+  padding-bottom: 7em;
+  max-width: 28vw;
+  height: auto;
 }
 
 .CTA {
@@ -140,14 +143,19 @@ h1 {
 
 button {
   background: var(--primary-clr);
-  color: var(--accent-txt);
+  padding: 1em 1.875em;
   font-size: 0.75em;
   border-radius: 100px;
   border: none;
   text-align: left;
   line-height: 1.125em;
-  padding: 1em 1.875em;
+  color: var(--accent-txt);
   cursor: pointer;
+}
+
+.story-text,
+.secondary-text {
+  max-width: 55ch;
 }
 
 .story-text {
@@ -170,10 +178,16 @@ h4 {
   padding: 40% 0 10% 0;
 }
 
+/* Desktop */
 @media (min-width: 768px) {
-  .hero,
-  .illustration-person {
+  .content {
     display: flex;
+    flex-direction: column;
+  }
+
+  .decor-home {
+    top: -4em;
+    right: 6em;
   }
 
   .story-text {
@@ -181,12 +195,13 @@ h4 {
   }
 
   .illustration-person {
-    margin: 0 auto;
+    width: 23vw;
+    margin: -2em 7% auto auto;
   }
 
   .CTA {
-    display: flex;
-    margin-top: 2em;
+    align-items: flex-start;
+    margin-top: -11em;
   }
 }
 </style>

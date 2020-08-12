@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <img class="decor-about" :src="webDecorAbout" alt="">
     <main id="skip-nav" class="body-text">
       <h1>About Us</h1>
       <p class="secondary-text">
@@ -93,7 +94,7 @@
           </div>
           <p>
             Minh is a Minimum Viable Product (MVP) developer with a passion for
-            good code, focused on efficiency, with a love for new projects.
+            good code, focused on efficiency, and a love for new projects.
           </p>
         </div>
         <div class="member5B">
@@ -115,11 +116,51 @@
             </div>
           </div>
           <p>
-            Shirley is a skilled and versatile software developer with more
-            than two years of professional experience in working with business
+            Shirley is a skilled and versatile software developer with more than
+            two years of professional experience in working with business owners
             owners and clients to deliver high-quality, well-tested software
             applications. She is always learning and looking to use her skills
             to contribute to the community.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Our Values</h3>
+      <div class="value-grid">
+        <div class="speed">
+          <h4>Speed</h4>
+          <p>
+            The foundation for the work we do lies in looking for novel and
+            disruptive solutions,
+          </p>
+        </div>
+        <div class="adaptable">
+          <h4>Adaptable</h4>
+          <p>
+            One of our biggest strengths is our ability to adapt to a rapidly
+            changing climate and stay ahead of the curve,
+          </p>
+        </div>
+        <div class="commitment">
+          <h4>Commitment</h4>
+          <p>
+            Our team is transparent and we will always stand by our word with
+            our customers, partners and each other,
+          </p>
+        </div>
+        <div class="innovation">
+          <h4>Innovation</h4>
+          <p>
+            The foundation for the work we do lies in looking for novel and
+            disruptive solutions,
+          </p>
+        </div>
+        <div class="community">
+          <h4>Community</h4>
+          <p>
+            We are committed to making a positive impact in our community and
+            giving back every step of the way
           </p>
         </div>
       </div>
@@ -132,9 +173,10 @@
 </template>
 
 <script>
+import webDecorAbout from "@/assets/webDecorAbout.svg";
 import member1 from "@/assets/Members/member1.png";
 import member2 from "@/assets/Members/member2.png";
-import member3 from "@/assets/Members/member3.svg";
+import member3 from "@/assets/Members/member3.png";
 import member4 from "@/assets/Members/member4.png";
 import member5 from "@/assets/Members/member5.png";
 import member5B from "@/assets/Members/member5B.png";
@@ -144,6 +186,7 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 export default {
   name: "About",
   data: () => ({
+    webDecorAbout,
     member1,
     member2,
     member3,
@@ -161,6 +204,15 @@ export default {
   padding: 0 1.625em;
 }
 
+.decor-about {
+  position: absolute;
+  top: 0;
+  left: -3em;
+  z-index: -1;
+  width: 65%;
+  height: auto;
+}
+
 .body-text {
   display: flex;
   flex-direction: column;
@@ -168,6 +220,11 @@ export default {
   margin-top: 10em;
   padding: 0 2em;
   text-align: center;
+}
+
+.secondary-text,
+p {
+  max-width: 55ch;
 }
 
 .secondary-text {
@@ -183,7 +240,12 @@ share default appearance */
 .member4,
 .member5,
 .member5B,
-.member5C {
+.member5C,
+.speed,
+.adaptable,
+.commitment,
+.innovation,
+.community {
   padding: 2em 0 3.5em 0;
 }
 
@@ -211,6 +273,10 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+h3 {
+  margin-top: 8.75em;
+}
+
 p {
   color: var(--primary-txt);
   font-size: 1em;
@@ -231,7 +297,36 @@ p {
   padding: 40% 0 10% 0;
 }
 
-/* Desktop */
-/* @media screen and (min-width: 768px) {
-} */
+@media screen and (min-width: 768px) {
+  .decor-about {
+    top: 3em;
+    right: 6em;
+  }
+
+  .gallery,
+  .value-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .member1,
+  .member2,
+  .member3,
+  .member4,
+  .member5,
+  .member5B,
+  .member5C {
+    padding-right: 5.5em;
+    width: 32%;
+  }
+
+  .speed,
+  .adaptable,
+  .commitment,
+  .innovation,
+  .community {
+    padding-right: 2em;
+    width: 30%;
+  }
+}
 </style>

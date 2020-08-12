@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <img class="decor-join" :src="webDecorJoin" alt="">
     <main id="skip-nav" class="body-text">
       <h1>Join Us</h1>
       <p class="secondary-text">
@@ -11,32 +12,55 @@
         research,
         <strong>you'll find a place here!</strong>
       </p>
+      <blockquote>
+        <p>We are ambitious &amp; empathetic.</p>
+        <p>We are friendly &amp; committed.</p>
+        <p>We are are diverse &amp; united.</p>
+        <p>We are all about teamwork.</p>
+      </blockquote>
     </main>
 
     <section class="container">
       <h3>We're Looking For:</h3>
-      <ol class="padding-bottom">
-        <li>Self-starters</li>
-        <li>Those who have the ability to adapt to change</li>
-        <li>Individuals with amazing interpersonal skills!</li>
-      </ol>
+      <div class="list-1">
+        <ul v-for="item in criteriaList" :key="item">
+          <li>{{ item }}</li>
+        </ul>
+      </div>
+      <p class="secondary-text">
+        For specific job positions, visit our LinkedIn first
+      </p>
+      <a
+        href="https://www.linkedin.com/company/6ixplore/about/"
+        target="_blank"
+        alt="Open new window"
+      >
+        <img
+          class="linkedin-profile"
+          :src="linkedIn"
+          alt="Visit 6ixplore LinkedIn"
+        />
+      </a>
     </section>
 
     <section class="container">
       <h3>How To Apply</h3>
-      <p class="padding-bottom">
-        Please send a copy of your resume to apply! Do add a short description of the
+      <p class="secondary-text">
+        Please send a copy of your resume to apply! Do add a short description
+        of the
         <strong>experience you'd like to gain</strong>,
         <strong>what you'll provide</strong>, and
         <strong>role you're interested in</strong>!
       </p>
-      <p class="padding-bottom">General Address: ---</p>
-      <p class="padding-bottom">
+      <p class="secondary-text">General Address: ---</p>
+      <p class="secondary-text">
         <strong>NOTE:</strong> We do not discriminate based on age, gender, sex,
         or any religious or cultural values. We strive to be and have always
         been a team of diverse individuals from various backgrounds, and we
-        carry that forward into our hiring process. Thank you for applying!
-        You’ll hear back from us in a couple days.
+        carry that forward into our hiring process.
+      </p>
+      <p class="secondary-text">
+        Thank you for applying! You’ll hear back from us in a couple days.
       </p>
     </section>
     <p class="credits">
@@ -47,11 +71,20 @@
 </template>
 
 <script>
+import webDecorJoin from "@/assets/webDecorJoin.svg";
+import linkedIn from "@/assets/linkedIn.svg";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "Join",
   data: () => ({
+    webDecorJoin,
+    criteriaList: [
+      "Self-starters",
+      "Those who have the ability to adapt to change",
+      "Individuals with amazing interpersonal skills!"
+    ],
+    linkedIn,
     copyrightIcon
   })
 };
@@ -60,6 +93,15 @@ export default {
 <style scoped>
 .container {
   padding: 0 1.625em;
+}
+
+.decor-join {
+  position: absolute;
+  top: 20em;
+  left: -3em;
+  z-index: -1;
+  width: 40em;
+  height: auto;
 }
 
 .body-text {
@@ -72,19 +114,47 @@ export default {
 }
 
 h1 {
+  padding-bottom: 0.5em;
   font-weight: 400;
   font-size: 1.875em;
-  padding-bottom: 0.5em;
 }
 
 .secondary-text {
   color: var(--primary-txt);
   font-size: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 2.5em;
+  max-width: 55ch;
 }
 
-.padding-bottom {
-  padding-bottom: 3em;
+blockquote {
+  background: #ffe8e8;
+  padding: 1.75em 1.5625em;
+  border-radius: 0.3125em;
+  border-left: var(--primary-clr) 8px solid;
+  text-align: center;
+}
+
+blockquote p:nth-last-child(1) {
+  padding-top: 1em;
+}
+
+h3 {
+  margin-top: 8.75em;
+  padding-bottom: 2em;
+}
+
+.linkedin-profile {
+  width: 2.5em;
+  height: auto;
+  margin: -1.5em 0 4em 0;
+}
+
+.list-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 2em 1em;
+  font-size: 0.75em;
+  color: var(--secondary-txt);
 }
 
 .credits {

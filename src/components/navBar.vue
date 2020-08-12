@@ -3,7 +3,11 @@
     <nav class="navigation container">
       <header>
         <router-link :to="{ name: 'Home' }">
-          <img class="logo" :src="logo" alt="6ixplore - Discover locally, instantly" />
+          <img
+            class="logo"
+            :src="logo"
+            alt="6ixplore - Discover locally, instantly"
+          />
         </router-link>
       </header>
       <!-- Add accessiblity: Skip Nav :focus -->
@@ -28,7 +32,8 @@ export default {
     webDecorHome,
     // Logo
     logo,
-    navLinks: ["Home", "About", "Join"]
+    navLinks: ["Home", "About", "Join"],
+    browserBreakPoint: `${768}px`
   }),
   components: {
     navModal
