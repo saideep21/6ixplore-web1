@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    disableHostCheck: true,
-    host: 'localhost'
+    // disableHostCheck: true,
+    // host: 'localhost'
   }
 };
