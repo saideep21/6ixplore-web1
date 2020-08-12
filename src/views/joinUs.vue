@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="decor-join" :src="webDecorJoin" alt="">
+    <img class="decor-join" :src="webDecorJoin" alt="" />
     <main id="skip-nav" class="body-text">
       <h1>Join Us</h1>
       <p class="secondary-text">

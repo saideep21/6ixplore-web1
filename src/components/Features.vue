@@ -3,7 +3,9 @@
     <h3>Our Features</h3>
     <div class="modal">
       <img class="img-1" :src="step1" alt="Benefit 1" />
-      <h3 class="heading-1">For our customers, we want to highlight our core benefits:</h3>
+      <h3 class="heading-1">
+        For our customers, we want to highlight our core benefits:
+      </h3>
       <div class="list-1">
         <ul v-for="item in customerBenefitsList" :key="item">
           <li>{{ item }}</li>
@@ -52,7 +54,7 @@ export default {
 
 .modal {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 4em auto;
   grid-template-rows: repeat(4, auto);
   gap: 1em;
   margin: 2em auto;
