@@ -1,0 +1,13 @@
+steps:
+- name: npm:6.14.7
+  entrypoint: npm
+  args: ["install"]
+- name: node:11.6.0
+  entrypoint: npm
+  args: ["install"]
+- name: node:11.6.0
+  entrypoint: npm
+  args: ["run", "build"]
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["app", "deploy"]
+timeout: "1600s"
