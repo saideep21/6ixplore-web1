@@ -37,7 +37,7 @@
       >
         <img
           class="linkedin-profile"
-          :src="linkedIn"
+          :src="LinkedIn"
           alt="Visit 6ixplore LinkedIn"
         />
       </a>
@@ -72,7 +72,7 @@
 
 <script>
 import webDecorJoin from "@/assets/webDecorJoin.svg";
-import linkedIn from "@/assets/linkedIn.svg";
+import LinkedIn from "@/assets/LinkedIn.svg";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
@@ -84,7 +84,7 @@ export default {
       "Those who have the ability to adapt to change",
       "Individuals with amazing interpersonal skills!"
     ],
-    linkedIn,
+    LinkedIn,
     copyrightIcon
   })
 };
