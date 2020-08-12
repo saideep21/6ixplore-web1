@@ -14,10 +14,10 @@ OK Finish About Us
 OK Finish Join Us
 OK Add copyright at end of each page
 OK Deploy to GitHub Pages
-Add LinkedIn icon to Join page
-Add Decor to pages
+OK Add LinkedIn icon to Join page
+OK Add Decor to pages
 OK Add Our Values section
 OK Add blockquote for Join page
-Accessibility - "skip nav" on focus
-Join page email
-About page (last team member info)
+OK Accessibility - "skip nav" on focus
+Join page (email)
+About page (missing 1 member description)

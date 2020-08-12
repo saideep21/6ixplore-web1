@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <!-- Hero -->
-    <img class="decor-home" :src="webDecorHome" alt="">
-    <main id="skip-nav" class="hero">
+    <img class="decor-home" :src="webDecorHome" alt="" />
+    <main class="hero">
       <div class="content">
         <h1>Discover locally, instantly</h1>
         <p class="secondary-text">
@@ -16,13 +16,13 @@
             <strong>Curious About Our Team?</strong>
           </p>
           <router-link :to="{ name: 'About' }">
-            <button>Find Out More</button>
+            <button role="button">Find Out More</button>
           </router-link>
         </div>
       </div>
     </main>
     <!-- Main Body -->
-    <section>
+    <section id="skip-content">
       <h3>An experience led to an idea</h3>
       <p class="secondary-text">
         It all started when a university student began looking for taste
