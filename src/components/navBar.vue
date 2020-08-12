@@ -3,17 +3,22 @@
     <nav class="navigation container">
       <header>
         <router-link :to="{ name: 'Home' }">
-          <img class="logo" :src="logo" alt="6ixplore - Discover locally, instantly" />
+          <img
+            class="logo"
+            :src="logo"
+            alt="6ixplore - Discover locally, instantly"
+          />
         </router-link>
       </header>
-      <!-- Add accessiblity: Skip Nav :focus -->
+      <!-- Accessbility: Skip Navigation on :focus -->
+      <router-link to="#skip-content" class="skip-nav">
+        <p>Skip navigation</p>
+      </router-link>
       <template v-for="link in navLinks">
         <router-link :to="{ name: link }" :key="link">{{ link }}</router-link>
       </template>
       <navModal />
     </nav>
-    <!-- <img class="decor-home" :src="webDecorHome" alt /> -->
-    <!-- Add accessiblity: Skip To Content -->
   </div>
 </template>
 
@@ -28,7 +33,8 @@ export default {
     webDecorHome,
     // Logo
     logo,
-    navLinks: ["Home", "About", "Join"]
+    navLinks: ["Home", "About", "Join"],
+    browserBreakPoint: `${768}px`
   }),
   components: {
     navModal
@@ -37,6 +43,23 @@ export default {
 </script>
 
 <style scoped>
+/* Acessibility: screen-reader only */
+.skip-nav {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-nav:focus {
+  position: static;
+  width: 6em;
+  height: 3em;
+  text-align: center;
+}
+
 .container {
   padding: 0 1.625em;
 }
@@ -60,16 +83,6 @@ export default {
   width: 6.1875em;
   height: auto;
 }
-
-/* DECOR IMG
-.decor-home {
-  position: absolute;
-  z-index: -1;
-  left: 0px;
-  top: 0px;
-  width: 80px;
-  height: auto;
-/* transform: matrix(-0.48, 0.87, -0.87, -0.48, 0, 0); */
 
 /* Desktop Styling */
 @media (min-width: 768px) {
