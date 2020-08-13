@@ -4,7 +4,21 @@ handlers:
 - url: /(.*\..+)$ 
   static_files: dist/\1
   upload: dist/(.*\..+)$
-  # catch all handler to index.html
-- url: /.*
-  static_files: dist/index.html
-  upload: dist/index.html
+#   # catch all handler to index.html
+# - url: /.*
+#   static_files: dist/index.html
+#   upload: dist/index.html
+
+- url: /static
+  static_dir: build/static
+
+- url: /assets
+  static_dir: build/assets
+
+- url: /(.*\.(json|ico|js))$
+  static_files: build/\1
+  upload: build/.*\.(json|ico|js)$
+
+- url: .*
+  static_files: build/index.html
+  upload: build/index.html
