@@ -15,7 +15,7 @@
       <blockquote>
         <p>We are ambitious &amp; empathetic.</p>
         <p>We are friendly &amp; committed.</p>
-        <p>We are are diverse &amp; united.</p>
+        <p>We are diverse &amp; united.</p>
         <p>We are all about teamwork.</p>
       </blockquote>
     </main>
