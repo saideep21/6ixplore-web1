@@ -9,7 +9,8 @@ This repo is the home of our first website for LinkedIn and recruitment purposes
 Built with:
 - Vue.js
 - HTML/CSS
-- 2 days' sprint and late night by [@maureento8888](https://github.com/maureento8888) and - [@EndBird](https://github.com/EndBird)
+- 2 days' sprint and late night by [@maureento8888](https://github.com/maureento8888)
+- [@EndBird](https://github.com/EndBird)
 - [xshirl1027](https://github.com/xshirl1027)
 
 # Getting Started
