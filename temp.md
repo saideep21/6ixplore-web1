@@ -11,7 +11,7 @@ Built with:
 - HTML/CSS
 - 2 days' sprint and late night by [@maureento8888](https://github.com/maureento8888)
 - [@EndBird](https://github.com/EndBird)
-- [xshirl1027](https://github.com/xshirl1027)
+- [@xshirl1027](https://github.com/xshirl1027)
 
 # Getting Started
 ## Project setup
