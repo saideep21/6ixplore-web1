@@ -1,5 +1,5 @@
 runtime: nodejs10
-handlers:
+# handlers:
 #   # Serve all static files with urls ending with a file extension
 # - url: /(.*\..+)$ 
 #   static_files: dist/\1
@@ -9,16 +9,9 @@ handlers:
 #   static_files: dist/index.html
 #   upload: dist/index.html
 
-# - url: /static
-#   static_dir: build/static
-
-# - url: /assets
-#   static_dir: build/assets
-
-# - url: /(.*\.(json|ico|js))$
-#   static_files: build/\1
-#   upload: build/.*\.(json|ico|js)$
-
-# - url: .*
-#   static_files: build/index.html
-#   upload: build/index.html
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
