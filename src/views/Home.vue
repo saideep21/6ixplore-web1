@@ -196,7 +196,7 @@ h4 {
 
   .illustration-person {
     width: 23vw;
-    margin: -2em 7% auto auto;
+    margin: -8em 9% auto auto;
   }
 
   .CTA {
