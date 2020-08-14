@@ -20,7 +20,7 @@ OK Add Our Values section
 OK Add blockquote for Join page
 OK Accessibility - "skip nav" on focus
 OK Add document.title and description (SEO)
-Center copyright on /about
+OK Center copyright on /about
 Join page (email)
 Bug: Fix navLinks in mobile viewport
 About page (missing 1 member description)
