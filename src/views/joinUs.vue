@@ -28,7 +28,7 @@
         </ul>
       </div>
       <p class="secondary-text">
-        For specific job positions, visit our LinkedIn first
+        For <strong>specific job positions</strong>, visit our LinkedIn:
       </p>
       <a
         href="https://www.linkedin.com/company/6ixplore/about/"

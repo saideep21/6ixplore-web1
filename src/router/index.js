@@ -25,6 +25,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  mode: "history", // IMPORTANT for prerendering!
+  base: process.env.BASE_URL,
   routes
 });
 

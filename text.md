@@ -111,7 +111,7 @@ We are all about teamwork.
 - Those who have the ability to adapt to change
 - Individuals with amazing interpersonal skills!
 
-For <strong>specific job positions</strong>, visit our LinkedIn first
+For <strong>specific job positions</strong>, visit our LinkedIn:
 
 ### How To Apply
 
