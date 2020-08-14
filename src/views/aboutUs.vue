@@ -294,7 +294,8 @@ p {
   font-weight: 700;
   font-size: 1em;
   text-align: center;
-  padding: 40% 0 10% 0;
+  padding: 40% 0% 10% 0;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
