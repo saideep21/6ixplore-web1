@@ -162,5 +162,6 @@ h3 {
   font-size: 1em;
   text-align: center;
   padding: 40% 0 10% 0;
+  margin: 0 auto;
 }
 </style>
