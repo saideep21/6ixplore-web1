@@ -102,7 +102,7 @@
             <img class="headshot" :src="member5B" alt />
             <div class="name-and-title">
               <h4>Timothy Samson</h4>
-              <p class="title">Strategy</p>
+              <p class="title">Strategy Coordinator</p>
             </div>
           </div>
           <p>N/A</p>
