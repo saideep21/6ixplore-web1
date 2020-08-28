@@ -3,11 +3,7 @@
     <nav class="navigation container">
       <header>
         <router-link :to="{ name: 'Home' }">
-          <img
-            class="logo"
-            :src="logo"
-            alt="6ixplore - Discover locally, instantly"
-          />
+          <img class="logo" :src="logo" alt="6ixplore - Discover locally, instantly" />
         </router-link>
       </header>
       <!-- Accessbility: Skip Navigation on :focus -->
@@ -15,7 +11,7 @@
         <p>Skip navigation</p>
       </router-link>
       <template v-for="link in navLinks">
-        <router-link :to="{ name: link }" :key="link">{{ link }}</router-link>
+        <router-link class="viewport" :to="{ name: link }" :key="link">{{ link }}</router-link>
       </template>
       <navModal />
     </nav>
@@ -84,10 +80,17 @@ export default {
   height: auto;
 }
 
+.viewport {
+  display: none;
+}
 /* Desktop Styling */
 @media (min-width: 768px) {
   .navigation {
     opacity: 1;
+  }
+
+  .viewport {
+    display: block;
   }
 }
 </style>

@@ -23,4 +23,4 @@ OK Add document.title and description (SEO)
 OK Center copyright on /about
 OK About page (add Tim title)
 Join page (email)
-Bug: Fix navLinks in mobile viewport
+OK Bug: Fix navLinks in mobile viewport
