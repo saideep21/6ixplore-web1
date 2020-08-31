@@ -22,5 +22,9 @@ OK Accessibility - "skip nav" on focus
 OK Add document.title and description (SEO)
 OK Center copyright on /about
 OK About page (add Tim title)
-Join page (email)
 OK Bug: Fix navLinks in mobile viewport
+Join page (email)
+Fix global left margin
+Fix versioning issue in App Engine hosting
+Fix logo font
+Cache images
