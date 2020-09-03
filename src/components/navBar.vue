@@ -3,7 +3,11 @@
     <nav class="navigation container">
       <header>
         <router-link :to="{ name: 'Home' }">
-          <img class="logo" :src="logo" alt="6ixplore - Discover locally, instantly" />
+          <img
+            class="logo"
+            :src="logo"
+            alt="6ixplore - Discover locally, instantly"
+          />
         </router-link>
       </header>
       <!-- Accessbility: Skip Navigation on :focus -->
@@ -11,7 +15,9 @@
         <p>Skip navigation</p>
       </router-link>
       <template v-for="link in navLinks">
-        <router-link class="viewport" :to="{ name: link }" :key="link">{{ link }}</router-link>
+        <router-link class="links" :to="{ name: link }" :key="link">{{
+          link
+        }}</router-link>
       </template>
       <navModal />
     </nav>
@@ -21,7 +27,7 @@
 <script>
 import navModal from "@/components/navModal.vue";
 import webDecorHome from "@/assets/webDecorHome.svg";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 
 export default {
   data: () => ({
@@ -29,8 +35,7 @@ export default {
     webDecorHome,
     // Logo
     logo,
-    navLinks: ["Home", "About", "Join"],
-    browserBreakPoint: `${768}px`
+    navLinks: ["Home", "About", "Join"]
   }),
   components: {
     navModal
@@ -57,14 +62,14 @@ export default {
 }
 
 .container {
-  padding: 0 1.625em;
+  padding: 0 3.625em;
 }
 
 .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.75em 1.625em 1.75em 1.625em;
+  padding: 2.75em 3.625em 1.75em 3.625em;
   width: 100vw;
   position: fixed;
   z-index: 500;
@@ -76,21 +81,27 @@ export default {
 }
 
 .logo {
-  width: 6.1875em;
+  width: 4.5em;
   height: auto;
 }
 
-.viewport {
+.links {
   display: none;
 }
+
+.links:visited {
+  color: var(--primary-clr);
+}
+
 /* Desktop Styling */
 @media (min-width: 768px) {
   .navigation {
-    opacity: 1;
+    box-shadow: none;
   }
 
-  .viewport {
+  .links {
     display: block;
+    color: var(--primary-txt);
   }
 }
 </style>

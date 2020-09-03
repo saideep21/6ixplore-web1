@@ -92,7 +92,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.625em;
+  padding: 0 3.625em;
 }
 
 .decor-join {
@@ -144,7 +144,7 @@ h3 {
 }
 
 .linkedin-profile {
-  width: 2.5em;
+  width: 2em;
   height: auto;
   margin: -1.5em 0 4em 0;
 }
@@ -161,7 +161,7 @@ h3 {
   font-weight: 700;
   font-size: 1em;
   text-align: center;
-  padding: 40% 0 10% 0;
+  padding: 10em 0 4em 0;
   margin: 0 auto;
 }
 </style>

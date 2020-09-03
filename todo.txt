@@ -24,7 +24,7 @@ OK Center copyright on /about
 OK About page (add Tim title)
 OK Bug: Fix navLinks in mobile viewport
 Join page (email)
-Fix global left margin
+OK Fix global left margin
 Fix versioning issue in App Engine hosting
-Fix logo font
+OK Fix logo font
 Cache images

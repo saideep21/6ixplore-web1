@@ -86,7 +86,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.625em;
+  padding: 0 3.625em;
 }
 
 .hero {
@@ -175,7 +175,7 @@ h4 {
   font-weight: 700;
   font-size: 1em;
   text-align: center;
-  padding: 40% 0 10% 0;
+  padding: 10em 0 4em 0;
 }
 
 /* Desktop */
