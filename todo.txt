@@ -25,6 +25,6 @@ OK About page (add Tim title)
 OK Bug: Fix navLinks in mobile viewport
 Join page (email)
 OK Fix global left margin
-Fix versioning issue in App Engine hosting
+OK Fix versioning issue in App Engine hosting
 OK Fix logo font
 Cache images

@@ -89,10 +89,6 @@ export default {
   display: none;
 }
 
-.links:visited {
-  color: var(--primary-clr);
-}
-
 /* Desktop Styling */
 @media (min-width: 768px) {
   .navigation {
