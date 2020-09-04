@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="decor-about" :src="webDecorAbout" alt="" />
+    <img class="decor-about" :src="webDecorAbout" alt="" aria-label="" />
     <main id="skip-nav" class="body-text">
       <h1>About Us</h1>
       <p class="secondary-text">
@@ -88,29 +88,6 @@
           <div class="info">
             <img class="headshot" :src="member5" alt />
             <div class="name-and-title">
-              <h4>Minh Huynh</h4>
-              <p class="title">iOS Developer</p>
-            </div>
-          </div>
-          <p>
-            Minh is a Minimum Viable Product (MVP) developer with a passion for
-            good code, focused on efficiency, and a love for new projects.
-          </p>
-        </div>
-        <div class="member5B">
-          <div class="info">
-            <img class="headshot" :src="member5B" alt />
-            <div class="name-and-title">
-              <h4>Timothy Samson</h4>
-              <p class="title">Strategy Coordinator</p>
-            </div>
-          </div>
-          <p>N/A</p>
-        </div>
-        <div class="member5C">
-          <div class="info">
-            <img class="headshot" :src="member5C" alt />
-            <div class="name-and-title">
               <h4>Shirley Xia</h4>
               <p class="title">Full-stack Developer</p>
             </div>
@@ -122,6 +99,16 @@
             applications. She is always learning and looking to use her skills
             to contribute to the community.
           </p>
+        </div>
+        <div class="member6">
+          <div class="info">
+            <img class="headshot" :src="member6" alt />
+            <div class="name-and-title">
+              <h4>Timothy Samson</h4>
+              <p class="title">Strategy Coordinator</p>
+            </div>
+          </div>
+          <p>N/A</p>
         </div>
       </div>
     </section>
@@ -179,8 +166,7 @@ import member2 from "@/assets/Members/member2.png";
 import member3 from "@/assets/Members/member3.png";
 import member4 from "@/assets/Members/member4.png";
 import member5 from "@/assets/Members/member5.png";
-import member5B from "@/assets/Members/member5B.png";
-import member5C from "@/assets/Members/member5C.png";
+import member6 from "@/assets/Members/member6.png";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
@@ -192,8 +178,7 @@ export default {
     member3,
     member4,
     member5,
-    member5B,
-    member5C,
+    member6,
     copyrightIcon
   })
 };
@@ -239,8 +224,7 @@ share default appearance */
 .member3,
 .member4,
 .member5,
-.member5B,
-.member5C,
+.member6,
 .speed,
 .adaptable,
 .commitment,
@@ -315,8 +299,7 @@ p {
   .member3,
   .member4,
   .member5,
-  .member5B,
-  .member5C {
+  .member6 {
     padding-right: 5.5em;
     width: 32%;
   }

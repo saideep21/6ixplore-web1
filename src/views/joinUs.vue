@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <img class="decor-join" :src="webDecorJoin" alt="" />
     <main id="skip-nav" class="body-text">
       <h1>Join Us</h1>
       <p class="secondary-text">
@@ -71,14 +70,12 @@
 </template>
 
 <script>
-import webDecorJoin from "@/assets/webDecorJoin.svg";
 import LinkedIn from "@/assets/LinkedIn.svg";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "Join",
   data: () => ({
-    webDecorJoin,
     criteriaList: [
       "Self-starters",
       "Those who have the ability to adapt to change",
@@ -93,15 +90,6 @@ export default {
 <style scoped>
 .container {
   padding: 0 3.625em;
-}
-
-.decor-join {
-  position: absolute;
-  top: 20em;
-  left: -3em;
-  z-index: -1;
-  width: 40em;
-  height: auto;
 }
 
 .body-text {
