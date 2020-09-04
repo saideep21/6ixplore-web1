@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="decor-about" :src="webDecorAbout" alt="" aria-label="" />
+    <img class="decor-about" :src="webDecorAbout" alt="" />
     <main id="skip-nav" class="body-text">
       <h1>About Us</h1>
       <p class="secondary-text">
