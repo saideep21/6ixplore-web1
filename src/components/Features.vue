@@ -56,10 +56,11 @@ export default {
   display: grid;
   grid-template-columns: 4em auto;
   grid-template-rows: repeat(4, auto);
-  gap: 1em;
-  margin: 2em auto;
+  gap: 0.5em;
+  margin: 2em 0;
   padding: 1.5em 1.25em 1.5em 1.25em;
   max-width: 40em;
+  min-width: 15em;
   background: #ffffff;
   box-shadow: 0px 25px 50px #d3d3d329;
   border-radius: 20px;

@@ -86,7 +86,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 3.625em;
+  padding: 0 1.25em;
 }
 
 .hero {
@@ -125,7 +125,7 @@ h1 {
   display: flex;
   margin: 0 auto;
   padding-bottom: 7em;
-  max-width: 28vw;
+  max-width: 50vw;
   height: auto;
 }
 
@@ -180,6 +180,10 @@ h4 {
 
 /* Desktop */
 @media (min-width: 768px) {
+  .container {
+    padding: 0 1.525em;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -195,7 +199,7 @@ h4 {
   }
 
   .illustration-person {
-    width: 23vw;
+    width: 20vw;
     margin: -8em 9% auto auto;
   }
 
