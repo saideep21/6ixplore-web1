@@ -75,6 +75,9 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "Join",
+  metaInfo: {
+    title: "Join Us"
+  },
   data: () => ({
     criteriaList: [
       "Self-starters",

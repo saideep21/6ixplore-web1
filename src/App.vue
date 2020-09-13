@@ -11,6 +11,11 @@
 import navBar from "@/components/navBar.vue";
 
 export default {
+  name: "App",
+  metaInfo: {
+    title: "6ixplore - Discover locally, instantly",
+    titleTemplate: "%s | Discover locally, instantly"
+  },
   components: {
     navBar
   }

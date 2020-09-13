@@ -73,6 +73,10 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "Home",
+  metaInfo: {
+    title: "6ixplore - Discover locally, instantly",
+    titleTemplate: null
+  },
   data: () => ({
     webDecorHome,
     illustrationPerson,

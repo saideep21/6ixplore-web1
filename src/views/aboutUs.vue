@@ -171,6 +171,9 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "About",
+  metaInfo: {
+    title: "About Us"
+  },
   data: () => ({
     webDecorAbout,
     member1,

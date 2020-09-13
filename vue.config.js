@@ -6,14 +6,6 @@ module.exports = {
     disableHostCheck: true
     // host: 'localhost'
   },
-  // Set document.title
-  pages: {
-    index: {
-      entry: "src/main.js",
-      title: "6ixplore - Discover locally, instantly",
-      content: ""
-    }
-  },
   // Pre-render (SEO)
   configureWebpack: {
     plugins: [
