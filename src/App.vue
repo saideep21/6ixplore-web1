@@ -14,7 +14,8 @@ export default {
   name: "App",
   metaInfo: {
     title: "6ixplore - Discover locally, instantly",
-    titleTemplate: "%s | Discover locally, instantly"
+    titleTemplate: "%s | Discover locally, instantly",
+    content: "We will help you discover experiences that you’ve missed at places perfectly suited to your mood, palate and pocket..."
   },
   components: {
     navBar

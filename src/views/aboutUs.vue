@@ -172,7 +172,7 @@ import copyrightIcon from "@/assets/copyrightIcon.svg";
 export default {
   name: "About",
   metaInfo: {
-    title: "About Us"
+    title: "About Us",
   },
   data: () => ({
     webDecorAbout,
@@ -220,8 +220,6 @@ p {
   padding-bottom: 2.5em;
 }
 
-/* 5B and 5C are named such because both
-share default appearance */
 .member1,
 .member2,
 .member3,
