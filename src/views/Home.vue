@@ -90,7 +90,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.25em;
+  padding: 0 1.525em;
 }
 
 .hero {
