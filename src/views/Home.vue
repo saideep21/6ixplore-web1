@@ -97,15 +97,15 @@ export default {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-top: 10em;
+  margin-top: 9em;
 }
 
 .decor-home {
   position: absolute;
-  top: 0;
-  right: -6em;
+  top: -3em;
+  right: -2em;
   z-index: -1;
-  width: 65em;
+  width: 38em;
   height: auto;
 }
 
@@ -185,7 +185,11 @@ h4 {
 /* Desktop */
 @media (min-width: 768px) {
   .container {
-    padding: 0 1.525em;
+    padding: 0 2.5em;
+  }
+
+  .hero {
+    margin-top: 10em;
   }
 
   .content {

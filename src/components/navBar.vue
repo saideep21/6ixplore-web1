@@ -1,13 +1,9 @@
 <template>
-  <div class="container">
-    <nav class="navigation container">
+  <div>
+    <nav class="navigation">
       <header>
         <router-link :to="{ name: 'Home' }">
-          <img
-            class="logo"
-            :src="logo"
-            alt="6ixplore - Discover locally, instantly"
-          />
+          <img class="logo" :src="logo" alt="6ixplore" />
         </router-link>
       </header>
       <!-- Accessbility: Skip Navigation on :focus -->
@@ -61,15 +57,11 @@ export default {
   text-align: center;
 }
 
-.container {
-  padding: 0 3.625em;
-}
-
 .navigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.75em 3.625em 1.75em 3.625em;
+  padding: 2.75em 2.5em 1.75em 2.5em;
   width: 100vw;
   position: fixed;
   z-index: 500;
@@ -81,7 +73,7 @@ export default {
 }
 
 .logo {
-  width: 5.5em;
+  width: 5em;
   height: auto;
 }
 

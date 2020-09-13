@@ -19,7 +19,7 @@
       </blockquote>
     </main>
 
-    <section class="container">
+    <section>
       <h3>We're Looking For:</h3>
       <div class="list-1">
         <ul v-for="item in criteriaList" :key="item">
@@ -42,7 +42,7 @@
       </a>
     </section>
 
-    <section class="container">
+    <section>
       <h3>How To Apply</h3>
       <p class="secondary-text">
         Please send a copy of your resume to apply! Do add a short description
@@ -100,7 +100,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
-  padding: 0 2em;
+  /* padding: 0 2em; */
   text-align: center;
 }
 
@@ -118,11 +118,16 @@ h1 {
 }
 
 blockquote {
-  background: #ffe8e8;
-  padding: 1.75em 1.5625em;
+  background: #fff6f6;
+  min-width: calc(271 / 16);
+  padding: 1.75em 2em;
   border-radius: 0.3125em;
-  border-left: var(--primary-clr) 8px solid;
+  border-left: var(--primary-clr) 7px solid;
   text-align: center;
+}
+
+blockquote > p {
+  padding-bottom: 0.5em;
 }
 
 blockquote p:nth-last-child(1) {
@@ -144,7 +149,7 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 0 0 2em 1em;
-  font-size: 0.75em;
+  font-size: 0.85em;
   color: var(--secondary-txt);
 }
 

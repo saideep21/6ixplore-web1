@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="benefits-card">
     <h3>Our Features</h3>
     <div class="modal">
       <img class="img-1" :src="step1" alt="Benefit for Customers" />
@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import step1 from "@/assets/step1.svg";
-import step2 from "@/assets/step2.svg";
+import step1 from "@/assets/step1.png";
+import step2 from "@/assets/step2.png";
 
 export default {
   name: "Features",
@@ -48,17 +48,17 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.benefits-card {
   margin-top: 8.75em;
 }
 
 .modal {
   display: grid;
-  grid-template-columns: 4em auto;
+  grid-template-columns: 3.5em auto;
   grid-template-rows: repeat(4, auto);
   gap: 0.5em;
   margin: 2em 0;
-  padding: 1.5em 1.25em 1.5em 1.25em;
+  padding: 3em 2em;
   max-width: 40em;
   min-width: 15em;
   background: #ffffff;
@@ -87,7 +87,7 @@ img {
 .list-1,
 .list-2 {
   padding-left: 1em;
-  font-size: 0.75em;
+  font-size: 0.85em;
   color: var(--secondary-txt);
 }
 
