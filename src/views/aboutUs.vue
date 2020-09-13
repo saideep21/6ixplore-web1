@@ -189,7 +189,7 @@ export default {
 
 <style scoped>
 .container {
-  padding: 0 1.525em;
+  padding: 0 2.5em;
 }
 
 .decor-about {
