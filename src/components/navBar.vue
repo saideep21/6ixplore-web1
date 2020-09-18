@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav class="navigation">
+    <nav class="navigation" role="menu">
       <header>
-        <router-link :to="{ name: 'Home' }">
+        <router-link :to="{ name: 'Home' }" role="menuitem" aria-current="page">
           <img class="logo" :src="logo" alt="6ixplore" />
         </router-link>
       </header>
@@ -11,9 +11,13 @@
         <p>Skip navigation</p>
       </router-link>
       <template v-for="link in navLinks">
-        <router-link class="links" :to="{ name: link }" :key="link">{{
-          link
-        }}</router-link>
+        <router-link
+          class="links"
+          role="menuitem"
+          :to="{ name: link }"
+          :key="link"
+          >{{ link }}</router-link
+        >
       </template>
       <navModal />
     </nav>

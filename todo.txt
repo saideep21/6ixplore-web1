@@ -27,4 +27,3 @@ Join page (email)
 OK Fix global left margin
 OK Fix versioning issue in App Engine hosting
 OK Fix logo font
-Cache images

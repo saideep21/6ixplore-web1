@@ -1,15 +1,20 @@
 <template>
   <div class="container">
     <!-- Hero -->
-    <img class="decor-home" :src="webDecorHome" alt="" />
+    <img class="decor-home" :src="webDecorHome" alt="" aria-hidden="true" />
     <main class="hero">
       <div class="content">
-        <h1>Discover locally, instantly</h1>
+        <h1 id="skip-content">Discover locally, instantly</h1>
         <p class="secondary-text">
           We will help you discover experiences that you’ve missed at places
           perfectly suited to your mood, palate and pocket.
         </p>
-        <img class="illustration-person" :src="illustrationPerson" alt />
+        <img
+          class="illustration-person"
+          :src="illustrationPerson"
+          alt=""
+          aria-hidden="true"
+        />
         <!-- CTA to /about -->
         <div class="CTA">
           <p>
@@ -22,7 +27,7 @@
       </div>
     </main>
     <!-- Main Body -->
-    <section id="skip-content">
+    <section>
       <h3>An experience led to an idea</h3>
       <p class="secondary-text">
         It all started when a university student began looking for taste
@@ -60,7 +65,8 @@
       <h4>Currently Incubating... Stay tuned!</h4>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt /> Copyright 6ixplore 2020
+      <img :src="copyrightIcon" alt="" aria-hidden="true" /> Copyright 6ixplore
+      2020
     </p>
   </div>
 </template>
@@ -200,10 +206,6 @@ h4 {
   .decor-home {
     top: -4em;
     right: 6em;
-  }
-
-  .story-text {
-    font-size: 1.5em;
   }
 
   .illustration-person {

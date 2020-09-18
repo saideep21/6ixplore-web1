@@ -1,19 +1,18 @@
 <template>
   <div>
     <!-- navModal (Mobile) -->
-    <div class="nav-menu">
+    <div class="nav-menu" role="menu">
       <!-- burger -->
-      <button @click="toggleModal">
+      <span @click="toggleModal">
         <img
           class="nav-burger"
           :src="isOpen ? closeIcon : burgerIcon"
           :alt="isOpen ? 'Close Navigation' : 'Open Navigation'"
-          role="navigation"
         />
-      </button>
+      </span>
       <div v-if="isOpen" class="nav-modal">
         <template v-for="link in navLinks">
-          <router-link :to="{ name: link }" :key="link">{{ link }}</router-link>
+          <router-link :to="{ name: link }" role="menuitem" :key="link">{{ link }}</router-link>
         </template>
       </div>
     </div>

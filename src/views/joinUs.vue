@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <main id="skip-nav" class="body-text">
+    <main id="skip-content" class="body-text">
       <h1>Join Us</h1>
       <p class="secondary-text">
         Do you want to
@@ -63,7 +63,7 @@
       </p>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt />
+      <img :src="copyrightIcon" alt="" aria-hidden="true" />
       Copyright 6ixplore 2020
     </p>
   </div>

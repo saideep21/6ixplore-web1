@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <img class="decor-about" :src="webDecorAbout" alt="" />
-    <main id="skip-nav" class="body-text">
-      <h1>About Us</h1>
+    <main class="body-text">
+      <h1 id="skip-content">About Us</h1>
       <p class="secondary-text">
         We are a team full of dynamic individuals determined to make a positive
         impact for our local restaurants.
@@ -153,7 +153,7 @@
       </div>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt />
+      <img :src="copyrightIcon" alt="" aria-hidden="true" />
       Copyright 6ixplore 2020
     </p>
   </div>
