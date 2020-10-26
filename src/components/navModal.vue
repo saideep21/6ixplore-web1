@@ -1,20 +1,28 @@
 <template>
   <div>
-    <!-- navModal (Mobile) -->
-    <div class="nav-menu" role="menu">
-      <!-- burger -->
-      <span @click="toggleModal">
+    <!-- navModal (only in mobile) -->
+    <div class="nav-menu" role="navigation">
+      <!-- Menu burger -->
+      <button @click="toggleModal">
         <img
           class="nav-burger"
           :src="isOpen ? closeIcon : burgerIcon"
           :alt="isOpen ? 'Close Navigation' : 'Open Navigation'"
         />
-      </span>
+      </button>
+      <!-- Menu modal -->
       <div v-if="isOpen" class="nav-modal">
-        <template v-for="link in navLinks">
-          <router-link :to="{ name: link }" role="menuitem" :key="link">{{ link }}</router-link>
+        <template
+          v-for="link in navLinks"
+          :class="currentLink(link)"
+          @click="selectedLink = link"
+        >
+          <router-link :to="{ name: link }" role="menuitem" :key="link">{{
+            link
+          }}</router-link>
         </template>
       </div>
+      <div v-if="isOpen" class="overlay" @click="toggleModal"></div>
     </div>
   </div>
 </template>
@@ -29,11 +37,17 @@ export default {
     navLinks: ["Home", "About", "Join"],
     burgerIcon,
     closeIcon,
-    isOpen: false
+    isOpen: false,
+    selectedLink: null
   }),
   methods: {
     toggleModal() {
       this.isOpen = !this.isOpen;
+    },
+    currentLink(link) {
+      return `nav-modal ${
+        link == this.selectedLink ? "nav-modal-selected" : ""
+      }`;
     }
   }
 };
@@ -56,6 +70,10 @@ button {
   cursor: pointer;
 }
 
+.nav-item {
+  border-bottom: 0.3rem solid var(--primary-clr);
+}
+
 /* Nav Modal */
 .nav-modal {
   position: absolute;
@@ -73,8 +91,23 @@ button {
   background: var(--bg-clr);
   box-shadow: 5px 5px 20px #633a3a29;
 }
+
+.nav-modal-selected {
+  border-bottom: 0.3rem solid var(--primary-clr);
+}
+
 .nav-modal button {
   margin-bottom: 1.5em;
+}
+
+.overlay {
+  background-color: rgb(255, 255, 255, 255, 0%);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {

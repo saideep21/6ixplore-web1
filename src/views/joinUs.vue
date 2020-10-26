@@ -51,7 +51,8 @@
         <strong>what you'll provide</strong>, and
         <strong>role you're interested in</strong>!
       </p>
-      <p class="secondary-text">General Address: ---</p>
+      <p class="secondary-text">General Inquiries: general@6ixplore.com</p>
+      <p class="secondary-text">Hiring: hiring@6ixplore.com</p>
       <p class="secondary-text">
         <strong>NOTE:</strong> We do not discriminate based on age, gender, sex,
         or any religious or cultural values. We strive to be and have always
