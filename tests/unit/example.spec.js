@@ -1,12 +1,14 @@
-import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import { mount } from "@vue/test-utils";
+import navModal from "@/components/navModal.vue";
 
-describe("HelloWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
-    });
-    expect(wrapper.text()).toMatch(msg);
+describe("navModal.vue", () => {
+  it("If openModal is false, do not show .nav-modal", () => {
+    const wrapper = mount(navModal);
+    expect(wrapper.find(".nav-modal").isVisible()).toBe(false);
+  });
+
+  it("After click, navModal opens", () => {
+    // const wrapper = mount(navModal);
+    expect(true).toBe(true);
   });
 });

@@ -11,7 +11,7 @@
         />
       </button>
       <!-- Menu modal -->
-      <div v-if="isOpen" class="nav-modal">
+      <div v-show="isOpen" class="nav-modal">
         <template
           v-for="link in navLinks"
           :class="currentLink(link)"
