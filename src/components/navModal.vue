@@ -46,7 +46,7 @@ export default {
     },
     currentLink(link) {
       return `nav-modal ${
-        link == this.selectedLink ? "nav-modal-selected" : ""
+        link == this.selectedLink ? "nav-modal-selected" : null
       }`;
     }
   }

@@ -1,20 +1,31 @@
 import { mount } from "@vue/test-utils";
 import navModal from "@/components/navModal.vue";
 
-// Three conditions for navModal component:
-/* 1. when openModal data is false, do not show navModal
-   2. when button burger icon clicked on, show navModal
-   3. when transparent background clicked, close navModal
- */
-
 describe("navModal.vue", () => {
-  it("If openModal is false, do not show .nav-modal", () => {
+  it("If isOpen is false, do not show nav modal", () => {
     const wrapper = mount(navModal);
     expect(wrapper.find(".nav-modal").isVisible()).toBe(false);
   });
 
-  it("After click, navModal opens", () => {
-    // const wrapper = mount(navModal);
-    expect(true).toBe(true);
+  it("If isOpen is true, show nav modal", async () => {
+    const wrapper = mount(navModal);
+    wrapper.setData({ isOpen: true });
+    // Wait for DOM to update modal visibility
+    await wrapper.vm.$nextTick();
+    expect(wrapper.find(".nav-modal").isVisible()).toBe(true);
+  });
+
+  it("If isOpen is false, do not show overlay", () => {
+    const wrapper = mount(navModal);
+    expect(wrapper.exists()).toBe(true);
+  });
+
+  it("If isOpen is true, show overlay", async () => {
+    const wrapper = mount(navModal);
+    wrapper.setData({ isOpen: true });
+
+    // Wait for DOM to update modal visibility
+    await wrapper.vm.$nextTick();
+    expect(wrapper.find(".overlay").isVisible()).toBe(true);
   });
 });
