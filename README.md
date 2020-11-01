@@ -42,8 +42,8 @@ N/A
 
 # RULES
 - Before editing code, please run `npm run test:unit` or `npm run test:e2e` (good practice)
-- Update [text.md](text.md) for copy changes
-- Check [todo.txt](todo.md) for new/backlogged TODOs
+- Update [text.md](./text.md) for copy changes
+- Check [todo.txt](./todo.md) for new/backlogged TODOs
 
 # Credits (and Inspiration)
 - Maintainer and Project Lead [@maureento8888](https://github.com/maureento8888)
