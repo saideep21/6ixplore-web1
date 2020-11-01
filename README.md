@@ -1,13 +1,13 @@
 # 6ixplore - Discover locally, instantly
 
-This repo is the home of our first website for LinkedIn and recruitment purposes!
+This repo is the home of our website for LinkedIn and recruitment purposes!
 
-<strong>NOTE:</strong> Will be updated regularly for enchancements to UI and cleaner code.
-- See [todo.txt](todo.txt) for list of TODOs
-- See [text.md](text.md) for copy changes
+<strong>NOTE:</strong> Maintenance and updates are done regularly for enchancements to interface and code base.
+- Refer to [todo.txt](todo.txt) for TODOs
+- Refer to [text.md](text.md) for copy changes
 
 Built with:
-- Vue.js
+- Vue.js v2
 - HTML/CSS
 - 2 days' sprint and late night by [@maureento8888](https://github.com/maureento8888)
 - [@EndBird](https://github.com/EndBird)
@@ -39,14 +39,13 @@ N/A
 # Contributing
 - [@maureento8888](https://github.com/maureento8888) - UI/UX Designer, front-end developer
 - [@EndBird](https://github.com/EndBird)
-- Add on :)
 
 # RULES
-- For copy (text) changes, add to [text.md](text.md) first!!!
-- Always check or skim the [todo.txt](todo.md) for TODOs - helps gain familiarity before getting your grabby hands on :D
+- Before editing code, please run `npm run test:unit` or `npm run test:e2e` (good practice)
+- Update [text.md](text.md) for copy changes
+- Check [todo.txt](todo.md) for new/backlogged TODOs
 
 # Credits (and Inspiration)
-- [@maureento8888](https://github.com/maureento8888)
-- [@EndBird](https://github.com/EndBird)
-- [@saideep21](https://github.com/saideep21)
-- Add on :)
+- Maintainer and Project Lead [@maureento8888](https://github.com/maureento8888)
+- Contributor [@EndBird](https://github.com/EndBird)
+- Owner of repo [@saideep21](https://github.com/saideep21)

@@ -117,7 +117,10 @@ For <strong>specific job positions</strong>, visit our LinkedIn:
 
 Please send a copy of your resume to apply! Do add a short description of the experience you'd like to gain, what you'll provide, and role you're interested in!
 
-General Address: ---
+General Address:
+
+General Inquiries: general@6ixplore.com
+Hiring: hiring@6ixplore.com
 
 <strong>NOTE:</strong> We do not discriminate based on age, gender, sex, or any religious or cultural values. We strive to be and have always been a team of diverse individuals from various backgrounds, and we carry that forward into our hiring process.
 

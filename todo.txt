@@ -23,7 +23,8 @@ OK Add document.title and description (SEO)
 OK Center copyright on /about
 OK About page (add Tim title)
 OK Bug: Fix navLinks in mobile viewport
-Join page (email)
+OK Join page (email)
 OK Fix global left margin
 OK Fix versioning issue in App Engine hosting
 OK Fix logo font
+Migrate to Vue 3
