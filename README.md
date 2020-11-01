@@ -3,8 +3,8 @@
 This repo is the home of our website for LinkedIn and recruitment purposes!
 
 <strong>NOTE:</strong> Maintenance and updates are done regularly for enchancements to interface and code base.
-- Refer to [todo.txt](../todo.txt) for TODOs
-- Refer to [text.md](../text.md) for copy changes
+- Refer to [todo.txt](https://github.com/saideep21/6ixplore-web1/todo.txt) for TODOs
+- Refer to [text.md](https://github.com/saideep21/6ixplore-web1/text.md) for copy changes
 
 Built with:
 - Vue.js v2
