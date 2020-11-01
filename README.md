@@ -45,7 +45,7 @@ N/A
 - Update [text.md](./text.md) for copy changes
 - Check [todo.txt](./todo.txt) for new/backlogged TODOs
 
-# Credits (and Inspiration)
+# Credits
 - Maintainer and Project Lead [@maureento8888](https://github.com/maureento8888)
 - Contributor [@EndBird](https://github.com/EndBird)
 - Owner of repo [@saideep21](https://github.com/saideep21)
