@@ -35,7 +35,8 @@ export default {
     webDecorHome,
     // Logo
     logo,
-    navLinks: ["Home", "About", "Join"]
+    navLinks: ["Home", "About", "Join"],
+    selected: null
   }),
   components: {
     navModal
@@ -95,5 +96,11 @@ export default {
     display: block;
     color: var(--primary-txt);
   }
+
+  /* SELECTED LINK COLOURED TEST */
+  /* .links:hover,
+  .links-selected {
+    border-bottom: 0.2rem solid var(--primary-clr);
+  } */
 }
 </style>

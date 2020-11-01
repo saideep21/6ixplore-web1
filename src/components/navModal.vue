@@ -12,17 +12,17 @@
       </button>
       <!-- Menu modal -->
       <div v-show="isOpen" class="nav-modal">
-        <template
-          v-for="link in navLinks"
-          :class="currentLink(link)"
-          @click="selectedLink = link"
-        >
-          <router-link :to="{ name: link }" role="menuitem" :key="link">{{
-            link
-          }}</router-link>
+        <template v-for="link in navLinks">
+          <router-link
+            class="links"
+            :to="{ name: link }"
+            role="menuitem"
+            :key="link"
+            >{{ link }}
+          </router-link>
         </template>
       </div>
-      <div v-if="isOpen" class="overlay" @click="toggleModal"></div>
+      <div v-show="isOpen" class="overlay" @click="toggleModal"></div>
     </div>
   </div>
 </template>
@@ -38,16 +38,11 @@ export default {
     burgerIcon,
     closeIcon,
     isOpen: false,
-    selectedLink: null
+    selected: null
   }),
   methods: {
     toggleModal() {
       this.isOpen = !this.isOpen;
-    },
-    currentLink(link) {
-      return `nav-modal ${
-        link == this.selectedLink ? "nav-modal-selected" : null
-      }`;
     }
   }
 };
@@ -70,9 +65,18 @@ button {
   cursor: pointer;
 }
 
-.nav-item {
-  border-bottom: 0.3rem solid var(--primary-clr);
+.links {
+  color: var(--primary-txt);
 }
+
+/* SELECTED LINK COLOURED TEST */
+/* .nav-item:hover {
+  border-bottom: 0.3rem solid var(--primary-clr);
+} */
+
+/* .nav-item-selected {
+  border-bottom: 0.3rem solid var(--primary-clr);
+} */
 
 /* Nav Modal */
 .nav-modal {
@@ -92,10 +96,6 @@ button {
   box-shadow: 5px 5px 20px #633a3a29;
 }
 
-.nav-modal-selected {
-  border-bottom: 0.3rem solid var(--primary-clr);
-}
-
 .nav-modal button {
   margin-bottom: 1.5em;
 }
@@ -113,6 +113,10 @@ button {
 @media screen and (min-width: 768px) {
   .nav-menu {
     opacity: 0;
+  }
+
+  .links {
+    color: var(--primary-txt);
   }
 }
 </style>
