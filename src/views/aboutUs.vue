@@ -86,22 +86,6 @@
         </div>
         <div class="member5">
           <div class="info">
-            <img class="headshot" :src="member5" alt />
-            <div class="name-and-title">
-              <h4>Shirley Xia</h4>
-              <p class="title">Full-stack Developer</p>
-            </div>
-          </div>
-          <p>
-            Shirley is a skilled and versatile software developer with more than
-            two years of professional experience in working with business owners
-            owners and clients to deliver high-quality, well-tested software
-            applications. She is always learning and looking to use her skills
-            to contribute to the community.
-          </p>
-        </div>
-        <div class="member6">
-          <div class="info">
             <img class="headshot" :src="member6" alt />
             <div class="name-and-title">
               <h4>Timothy Samson</h4>
@@ -166,7 +150,6 @@ import member2 from "@/assets/Members/member2.png";
 import member3 from "@/assets/Members/member3.png";
 import member4 from "@/assets/Members/member4.png";
 import member5 from "@/assets/Members/member5.png";
-import member6 from "@/assets/Members/member6.png";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
@@ -181,7 +164,6 @@ export default {
     member3,
     member4,
     member5,
-    member6,
     copyrightIcon
   })
 };
@@ -225,7 +207,6 @@ p {
 .member3,
 .member4,
 .member5,
-.member6,
 .speed,
 .adaptable,
 .commitment,
@@ -299,8 +280,7 @@ p {
   .member2,
   .member3,
   .member4,
-  .member5,
-  .member6 {
+  .member5 {
     padding-right: 5.5em;
     width: 32%;
   }
