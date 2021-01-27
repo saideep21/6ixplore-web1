@@ -86,7 +86,7 @@
         </div>
         <div class="member5">
           <div class="info">
-            <img class="headshot" :src="member6" alt />
+            <img class="headshot" :src="member5" alt />
             <div class="name-and-title">
               <h4>Timothy Samson</h4>
               <p class="title">Strategy Coordinator</p>

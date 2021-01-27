@@ -30,7 +30,7 @@
         For <strong>specific job positions</strong>, visit our LinkedIn:
       </p>
       <a
-        href="https://www.linkedin.com/company/6ixplore/about/"
+        href="https://ca.linkedin.com/company/6ixplore"
         target="_blank"
         alt="Open new window"
       >
