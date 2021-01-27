@@ -2,6 +2,6 @@
   "pluginsFile": "tests/e2e/plugins/index.js",
   "baseUrl": "https://www.6ixplore.com/",
   "env": {
-    "linkedin_url": "https://ca.linkedin.com/company/6ixplore"
+    "linkedin_url": "https://www.linkedin.com/company/6ixplore/about/"
   }
 }
