@@ -99,9 +99,13 @@ export default {
   padding: 0 2.5em;
 }
 
-.hero {
+.hero,
+.content {
   display: flex;
   flex-direction: column;
+}
+
+.hero {
   text-align: left;
   margin-top: 9em;
 }
@@ -131,11 +135,13 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+.content {
+  justify-content: center;
+}
+
 .illustration-person {
-  display: flex;
   margin: 0 auto;
-  padding-bottom: 7em;
-  max-width: 50vw;
+  max-width: 11em;
   height: auto;
 }
 
@@ -144,6 +150,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5em;
+  padding-top: 4em;
 }
 
 .CTA p {
@@ -188,8 +195,20 @@ h4 {
   padding: 10em 0 4em 0;
 }
 
+/* Mobile < 667px (iPhone 6/7/8) */
+@media screen and (max-width: 470px) {
+  .illustration-person {
+    visibility: hidden;
+    max-width: 3em;
+  }
+
+  .CTA {
+    padding-top: 1em;
+  }
+}
+
 /* Desktop */
-@media (min-width: 768px) {
+@media screen and (min-width: 980px) {
   .container {
     padding: 0 2.5em;
   }
@@ -209,13 +228,15 @@ h4 {
   }
 
   .illustration-person {
-    width: 20vw;
+    display: inline;
+    max-width: 16em;
     margin: -8em 9% auto auto;
+    visibility: visible;
   }
 
   .CTA {
     align-items: flex-start;
-    margin-top: -11em;
+    margin-top: -9em;
   }
 }
 </style>
