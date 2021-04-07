@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navigation" role="menu">
+    <nav class="navigation">
       <header>
         <router-link :to="{ name: 'Home' }" role="menuitem" aria-current="page">
           <img class="logo" :src="logo" alt="6ixplore" />

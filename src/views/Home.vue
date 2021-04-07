@@ -21,7 +21,7 @@
             <strong>Curious About Our Team?</strong>
           </p>
           <router-link :to="{ name: 'About' }">
-            <button role="button">Find Out More</button>
+            <button>Find Out More</button>
           </router-link>
         </div>
       </div>
