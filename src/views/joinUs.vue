@@ -32,6 +32,7 @@
       <a
         href="https://www.linkedin.com/company/6ixplore/about/"
         target="_blank"
+        rel="noopener noreferrer"
         alt="Open new window"
       >
         <img
@@ -51,8 +52,24 @@
         <strong>what you'll provide</strong>, and
         <strong>role you're interested in</strong>!
       </p>
-      <p class="secondary-text">General Inquiries: general@6ixplore.com</p>
-      <p class="secondary-text">Hiring: hiring@6ixplore.com</p>
+      <p class="secondary-text">
+        General Inquiries:
+        <a
+          href="mailto:general@6ixplore.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >general@6ixplore.com</a
+        >
+      </p>
+      <p class="secondary-text">
+        Hiring:
+        <a
+          href="mailto:hiring@6ixplore.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >hiring@6ixplore.com</a
+        >
+      </p>
       <p class="secondary-text">
         <strong>NOTE:</strong> We do not discriminate based on age, gender, sex,
         or any religious or cultural values. We strive to be and have always
