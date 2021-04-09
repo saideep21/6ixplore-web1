@@ -30,7 +30,7 @@ Discover experiences that you’ve missed, and pick places that are perfectly su
 1 For our customers, we want to highlight our core benefits:
 
 - Discover more in the city you knew
-- Get better deals for every repeat visit
+- A completely transparent recommendation and review system
 - Plan and share experiences with friends
 
 2 For businesses, this means:

@@ -35,7 +35,7 @@ export default {
     // Benefits Lists
     customerBenefitsList: [
       "Discover more in the city you knew",
-      "Get better deals for every repeat visit",
+      "A completely transparent recommendation and review system",
       "Plan and share experiences with friends"
     ],
     businessBenefitsList: [
