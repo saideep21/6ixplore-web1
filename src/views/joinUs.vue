@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <main id="skip-content" class="body-text">
+    <main class="body-text">
+      <!-- ^add id="skip-content" for skip-link accessibility -->
       <h1>Join Us</h1>
       <p class="secondary-text">
         Do you want to
@@ -22,8 +23,8 @@
     <section>
       <h3>We're Looking For:</h3>
       <div class="list-1">
-        <ul v-for="item in criteriaList" :key="item">
-          <li>{{ item }}</li>
+        <ul v-for="criteria in criteriaList" :key="criteria">
+          <li>{{ criteria }}</li>
         </ul>
       </div>
       <p class="secondary-text">
@@ -33,7 +34,6 @@
         href="https://www.linkedin.com/company/6ixplore/about/"
         target="_blank"
         rel="noopener noreferrer"
-        alt="Open new window"
       >
         <img
           class="linkedin-profile"

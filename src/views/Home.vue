@@ -4,7 +4,8 @@
     <img class="decor-home" :src="webDecorHome" alt="" aria-hidden="true" />
     <main class="hero">
       <div class="content">
-        <h1 id="skip-content">Discover locally, instantly</h1>
+        <h1>Discover locally, instantly</h1>
+        <!-- ^ add id="skip-content" for skip-link accessibility -->
         <p class="secondary-text">
           We will help you discover experiences that you’ve missed at places
           perfectly suited to your mood, palate and pocket.
@@ -13,6 +14,8 @@
           class="illustration-person"
           :src="illustrationPerson"
           alt=""
+          width="200"
+          height="200"
           aria-hidden="true"
         />
         <!-- CTA to /about -->

@@ -1,8 +1,15 @@
 <template>
   <div class="container">
-    <img class="decor-about" :src="webDecorAbout" alt="" />
+    <img
+      class="decor-about"
+      :src="webDecorAbout"
+      width="800"
+      height="800"
+      aria-hidden="true"
+      alt=""
+    />
     <main class="body-text">
-      <h1 id="skip-content">About Us</h1>
+      <h1>About Us</h1>
       <p class="secondary-text">
         We are a team full of dynamic individuals determined to make a positive
         impact for our local restaurants.
