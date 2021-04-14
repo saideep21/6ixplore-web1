@@ -52,22 +52,10 @@
         <strong>role you're interested in</strong>!
       </p>
       <p class="secondary-text">
-        General Inquiries:
-        <a
-          href="mailto:general@6ixplore.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >general@6ixplore.com</a
-        >
+        General Inquiries: general[at]6ixplore.com
       </p>
       <p class="secondary-text">
-        Hiring:
-        <a
-          href="mailto:hiring@6ixplore.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >hiring@6ixplore.com</a
-        >
+        Hiring: hiring[at]6ixplore.com
       </p>
       <p class="secondary-text">
         <strong>NOTE:</strong> We do not discriminate based on age, gender, sex,
