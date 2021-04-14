@@ -2,10 +2,9 @@
   <div class="container">
     <!-- Hero -->
     <img class="decor-home" :src="webDecorHome" alt="" aria-hidden="true" />
-    <main class="hero">
+    <main class="hero" id="skip-content">
       <div class="content">
         <h1>Discover locally, instantly</h1>
-        <!-- ^ add id="skip-content" for skip-link accessibility -->
         <p class="secondary-text">
           We will help you discover experiences that you’ve missed at places
           perfectly suited to your mood, palate and pocket.
@@ -24,7 +23,7 @@
             <strong>Curious About Our Team?</strong>
           </p>
           <router-link :to="{ name: 'About' }">
-            <button>Find Out More</button>
+            <button type="button">Find Out More</button>
           </router-link>
         </div>
       </div>

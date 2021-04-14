@@ -2,7 +2,7 @@
   <div>
     <nav class="navigation">
       <header>
-        <router-link :to="{ name: 'Home' }" role="menuitem" aria-current="page">
+        <router-link :to="{ name: 'Home' }" aria-current="page">
           <img class="logo" :src="logo" alt="6ixplore" />
         </router-link>
       </header>
@@ -11,12 +11,8 @@
         <p>Skip navigation</p>
       </router-link>
       <template v-for="link in navLinks">
-        <router-link
-          class="links"
-          role="menuitem"
-          :to="{ name: link }"
-          :key="link"
-          >{{ link }}</router-link
+        <router-link class="links" :to="{ name: link }" :key="link">
+          {{ link }}</router-link
         >
       </template>
       <navModal />
@@ -45,7 +41,7 @@ export default {
 </script>
 
 <style scoped>
-/* Acessibility: screen-reader only */
+/* Accessibility - screen-reader only */
 .skip-nav {
   position: absolute;
   left: -10000px;
@@ -61,6 +57,7 @@ export default {
   height: 3em;
   text-align: center;
 }
+/*  */
 
 .navigation {
   display: flex;
@@ -96,11 +93,5 @@ export default {
     display: block;
     color: var(--primary-txt);
   }
-
-  /* SELECTED LINK COLOURED TEST */
-  /* .links:hover,
-  .links-selected {
-    border-bottom: 0.2rem solid var(--primary-clr);
-  } */
 }
 </style>

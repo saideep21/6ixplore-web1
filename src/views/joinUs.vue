@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <main class="body-text">
-      <!-- ^add id="skip-content" for skip-link accessibility -->
+    <main class="body-text" id="skip-content">
       <h1>Join Us</h1>
       <p class="secondary-text">
         Do you want to

@@ -8,7 +8,7 @@
       aria-hidden="true"
       alt=""
     />
-    <main class="body-text">
+    <main class="body-text" id="skip-content">
       <h1>About Us</h1>
       <p class="secondary-text">
         We are a team full of dynamic individuals determined to make a positive

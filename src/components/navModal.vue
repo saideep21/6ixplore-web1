@@ -3,26 +3,34 @@
     <!-- navModal (only in mobile) -->
     <div class="nav-menu" role="navigation">
       <!-- Menu burger -->
-      <button @click="toggleModal">
-        <img
-          class="nav-burger"
-          :src="isOpen ? closeIcon : burgerIcon"
-          :alt="isOpen ? 'Close Navigation' : 'Open Navigation'"
-        />
+      <button
+        @click="toggleModal"
+        type="button"
+        :aria-label="isOpen ? 'Close Dialog' : 'Open Dialog'"
+      >
+        <img class="nav-burger" :src="isOpen ? closeIcon : burgerIcon" alt="" />
       </button>
       <!-- Menu modal -->
-      <div v-show="isOpen" class="nav-modal">
+      <div
+        v-show="isOpen"
+        class="nav-modal"
+        role="dialog"
+        aria-labelledby="dialog-title"
+      >
+        <h1 id="dialog-title" class="sr-only">Mobile Site Navigation</h1>
         <template v-for="link in navLinks">
-          <router-link
-            class="links"
-            :to="{ name: link }"
-            role="menuitem"
-            :key="link"
+          <router-link class="links" :to="{ name: link }" :key="link"
             >{{ link }}
           </router-link>
         </template>
       </div>
-      <div v-show="isOpen" class="overlay" @click="toggleModal"></div>
+      <!-- Menu overlay -->
+      <div
+        v-show="isOpen"
+        class="overlay"
+        @click="toggleModal"
+        tabindex="-1"
+      ></div>
     </div>
   </div>
 </template>
@@ -37,14 +45,14 @@ export default {
     navLinks: ["Home", "About", "Join"],
     burgerIcon,
     closeIcon,
-    isOpen: false,
-    selected: null
+    isOpen: false
   }),
   methods: {
     toggleModal() {
       this.isOpen = !this.isOpen;
     }
-  }
+  },
+  computed: {}
 };
 </script>
 
@@ -68,15 +76,6 @@ button {
 .links {
   color: var(--primary-txt);
 }
-
-/* SELECTED LINK COLOURED TEST */
-/* .nav-item:hover {
-  border-bottom: 0.3rem solid var(--primary-clr);
-} */
-
-/* .nav-item-selected {
-  border-bottom: 0.3rem solid var(--primary-clr);
-} */
 
 /* Nav Modal */
 .nav-modal {
@@ -109,6 +108,17 @@ button {
   width: 100vw;
   z-index: 1;
 }
+
+/* Accessiblity - screen readers */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/*  */
 
 @media screen and (min-width: 768px) {
   .nav-menu {
