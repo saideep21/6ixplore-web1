@@ -241,9 +241,9 @@ p {
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 1.875em;
   padding-bottom: 0.5em;
+  font-weight: 600;
+  font-size: 1.875em;
 }
 
 h3 {

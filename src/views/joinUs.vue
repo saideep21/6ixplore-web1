@@ -111,7 +111,7 @@ export default {
 
 h1 {
   padding-bottom: 0.5em;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.875em;
 }
 
