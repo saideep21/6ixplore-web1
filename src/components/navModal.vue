@@ -110,13 +110,18 @@ button {
 }
 
 /* Accessiblity - screen readers */
+/* Source: https://kittygiraudel.com/snippets/sr-only-class/ */
 .sr-only {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  -webkit-clip-path: inset(50%) !important;
   height: 1px;
-  overflow: hidden;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }
 /*  */
 
