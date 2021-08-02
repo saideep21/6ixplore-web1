@@ -27,6 +27,6 @@ OK Join page (email)
 OK Fix global left margin
 OK Fix versioning issue in App Engine hosting
 OK Fix logo font
-Make components accessible
+Check LinkedIn icon-link accessibility
+Improve SEO more
 Correct tests - DO NOT test implementation detail
-Migrate to Vue 3

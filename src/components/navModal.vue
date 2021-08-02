@@ -25,12 +25,7 @@
         </template>
       </div>
       <!-- Menu overlay -->
-      <div
-        v-show="isOpen"
-        class="overlay"
-        @click="toggleModal"
-        tabindex="-1"
-      ></div>
+      <div v-show="isOpen" class="overlay" @click="toggleModal"></div>
     </div>
   </div>
 </template>

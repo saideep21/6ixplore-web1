@@ -20,11 +20,17 @@
         <!-- CTA to /about -->
         <div class="CTA">
           <p>
-            <strong>Curious About Our Team?</strong>
+            <strong>We're launching soon!</strong>
           </p>
-          <router-link :to="{ name: 'About' }">
-            <button type="button">Find Out More</button>
-          </router-link>
+          <a
+            href="https://forms.gle/neV1w5mmD9PjukDU9"
+            class="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="Open Google form in new tab"
+          >
+            Join our waitlist
+          </a>
         </div>
       </div>
     </main>
@@ -160,7 +166,7 @@ h1 {
   font-size: 0.94em;
 }
 
-button {
+.button {
   background: var(--primary-clr);
   padding: 1em 1.875em;
   font-size: 0.75em;
@@ -169,7 +175,6 @@ button {
   text-align: left;
   line-height: 1.125em;
   color: var(--accent-txt);
-  cursor: pointer;
 }
 
 .story-text,

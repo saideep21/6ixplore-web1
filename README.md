@@ -1,11 +1,11 @@
 # 6ixplore - Discover locally, instantly
 
-This repo is the home of our website for recruitment purposes. Please read the below instructions.
+This repo is the home of our website for 6ixplore. If you'd like to contribute, please read the instructions below.
 
-<strong>NOTE:</strong> Maintenance and updates are done regularly for enchancements to interface and code base.
+<strong>NOTE:</strong> Maintenance and updates are done regularly for enhancements to front-end interface and code quality.
 
 - Refer to [todo.txt](./todo.txt) for TODOs
-- Refer to [text.md](./text.md) for copy changes
+- Refer to [text.md](./text.md) for copywriting changes
 
 Built with:
 
