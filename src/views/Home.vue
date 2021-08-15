@@ -27,9 +27,9 @@
             class="button"
             target="_blank"
             rel="noopener noreferrer"
-            alt="Open Google form in new tab"
+            alt="Open survey form in new tab"
           >
-            Join our waitlist
+            Join our exclusive waitlist!
           </a>
         </div>
       </div>
@@ -168,9 +168,10 @@ h1 {
 
 .button {
   background: var(--primary-clr);
-  padding: 1em 1.875em;
-  font-size: 0.75em;
-  border-radius: 100px;
+  padding: 1.25em 2em;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 10px;
   border: none;
   text-align: left;
   line-height: 1.125em;
