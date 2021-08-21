@@ -23,11 +23,11 @@
             <strong>We're launching soon!</strong>
           </p>
           <a
-            href="https://forms.gle/neV1w5mmD9PjukDU9"
+            href="https://d4nntuql8ym.typeform.com/to/zA0sIL1d"
             class="button"
             target="_blank"
             rel="noopener noreferrer"
-            alt="Open survey form in new tab"
+            alt="Open Typeform in new tab"
           >
             Join our exclusive waitlist!
           </a>
