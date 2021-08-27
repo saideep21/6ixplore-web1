@@ -39,6 +39,12 @@ Discover experiences that you’ve missed, and pick places that are perfectly su
 - Keeping your clients / customers
 - No upfront charges, only commitment
 
+### Our App Prototype
+
+Our prototype is constantly being improved! Please be patient while it loads.
+
+[DEMO embed]
+
 ### Milestones
 
 A tour of our progress!
