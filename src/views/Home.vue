@@ -79,6 +79,7 @@
         src="https://xd.adobe.com/embed/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
         frameborder="0"
         allowfullscreen
+        title="Adobe Xd embedded prototype"
       >
       </iframe>
     </section>
