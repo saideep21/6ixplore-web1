@@ -264,7 +264,7 @@ p {
 }
 
 .credits {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1em;
   text-align: center;
   padding: 10em 0 4em 0;
