@@ -6,7 +6,7 @@
       <div class="content">
         <h1>Discover locally, instantly</h1>
         <p class="secondary-text">
-          We will help you discover experiences that you’ve missed at places
+          We help you discover experiences that you’ve missed at places
           perfectly suited to your mood, palate and pocket.
         </p>
         <img
@@ -61,11 +61,27 @@
       </p>
       <p class="story-text">
         Discover experiences that you’ve missed, and pick places that are
-        perfectly suited to your pocket, mood and your taste-buds.
+        perfectly suited to your pocket, mood and taste-buds.
       </p>
     </section>
     <!-- Features component -->
     <Features />
+    <!-- Embed Demo -->
+    <h3>Our App Prototype</h3>
+    <p class="secondary-text">
+      Our prototype is constantly being improved! Please be patient while it
+      loads.
+    </p>
+    <section class="embed-container">
+      <iframe
+        width="1035"
+        height="1012"
+        src="https://xd.adobe.com/embed/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
+        frameborder="0"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
     <!-- Milestones -->
     <section>
       <h3>Milestones</h3>
@@ -178,6 +194,24 @@ h1 {
   color: var(--accent-txt);
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  /* background: lightblue; */
+  /* overflow: hidden; */
+}
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  /* background: lightpink; */
+}
+
 .story-text,
 .secondary-text {
   max-width: 55ch;
@@ -197,7 +231,7 @@ h4 {
 }
 
 .credits {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1em;
   text-align: center;
   padding: 10em 0 4em 0;

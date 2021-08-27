@@ -9,10 +9,10 @@ Font: Poppins
 
 Discover locally, instantly
 
-We will help you discover experiences that you’ve missed at places perfectly suited to your mood, palate and pocket.
+We help you discover experiences that you’ve missed at places perfectly suited to your mood, palate and pocket.
 
-Curious About Our Team?
-Find Out More
+We're launching soon!
+Join our exclusive waitlist!
 
 ### Body
 
@@ -21,9 +21,9 @@ It all started when a university student began looking for taste experiences tha
 
 What started off as an individual quest to discover the hidden gems of Toronto, turned into a mission to create a platform designed to support our local businesses. Toronto - the “6ix” - has a wealth of spots that serve up food or beverage or cultural or entertainment experiences that one would easily overlook and walk past, simply because it was not in plain sight or one did not know about it. This little bit of technology connects your tastes with an experience that matches your pocket, instantly.
 
-While interacting with several unique independent establishments around the city, we learned about their struggles to stay open with soaring rent prices, competition from franchises offering cut-price deals, and now, COVID-19. We decided to create an equalizer on a platform where local restaurateurs can overcome these obstacles and be discovered by foodies that might have overlooked them.
+While interacting with several unique independent establishments around the city, we learned about their struggles to stay open with soaring rent prices and competition from franchises offering cut-price deals. We decided to create an equalizer on a platform where local restaurateurs can overcome these obstacles and be discovered by foodies that might have overlooked them.
 
-Discover experiences that you’ve missed, and pick places that are perfectly suited to your pocket, mood and your taste-buds.
+Discover experiences that you’ve missed, and pick places that are perfectly suited to your pocket, mood and taste-buds.
 
 ### Features
 
@@ -45,7 +45,7 @@ A tour of our progress!
 
 Currently Incubating... Stay tuned!
 
-<strong>Copyright 6ixplore 2020</strong>
+Copyright 6ixplore 2020
 
 ## About Us
 
@@ -78,10 +78,6 @@ Clayon is a recent UofT graduate whose passion lies in enhancing the student exp
 Timothy S.
 Strategy
 N/A
-
-Shirley X.
-Full-Stack Developer
-Shirley is a skilled and versatile software developer with more than two years of professional experience in working with business owners and clients to deliver high-quality, well-tested software applications. She is always learning and looking to use her skills to contribute to the community.
 
 ### Our Values
 

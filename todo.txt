@@ -28,5 +28,5 @@ OK Fix global left margin
 OK Fix versioning issue in App Engine hosting
 OK Fix logo font
 Check LinkedIn icon-link accessibility
-Improve SEO more
-Correct tests - DO NOT test implementation detail
+Improve SEO - meta description
+Check tests - DO NOT test implementation detail
