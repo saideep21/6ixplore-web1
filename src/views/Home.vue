@@ -34,6 +34,29 @@
         </div>
       </div>
     </main>
+    <!-- Embed Demo -->
+    <h3>Our App Prototype</h3>
+    <p class="secondary-text">
+      Our prototype is constantly being improved so please be patient! Not
+      loading?
+      <a
+        href="https://xd.adobe.com/view/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View the prototype</a
+      >
+    </p>
+    <section class="embed-container">
+      <iframe
+        width="1035"
+        height="1012"
+        src="https://xd.adobe.com/embed/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
+        frameborder="0"
+        allowfullscreen
+        title="Adobe Xd embedded prototype"
+      >
+      </iframe>
+    </section>
     <!-- Main Body -->
     <section>
       <h3>An experience led to an idea</h3>
@@ -66,28 +89,6 @@
     </section>
     <!-- Features component -->
     <Features />
-    <!-- Embed Demo -->
-    <h3>Our App Prototype</h3>
-    <p class="secondary-text">
-      Our prototype is constantly being improved! Not loading?
-      <a
-        href="https://xd.adobe.com/view/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
-        target="_blank"
-        rel="noopener noreferrer"
-        >View the prototype here</a
-      >
-    </p>
-    <section class="embed-container">
-      <iframe
-        width="1035"
-        height="1012"
-        src="https://xd.adobe.com/embed/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
-        frameborder="0"
-        allowfullscreen
-        title="Adobe Xd embedded prototype"
-      >
-      </iframe>
-    </section>
     <!-- Milestones -->
     <section>
       <h3>Milestones</h3>
