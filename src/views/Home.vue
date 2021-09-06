@@ -69,8 +69,13 @@
     <!-- Embed Demo -->
     <h3>Our App Prototype</h3>
     <p class="secondary-text">
-      Our prototype is constantly being improved! Please be patient while it
-      loads.
+      Our prototype is constantly being improved! Not loading?
+      <a
+        href="https://xd.adobe.com/view/46868c8a-ee0c-448c-a868-ead06fab9711-13d5/?fullscreen&hints=off"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View the prototype here</a
+      >
     </p>
     <section class="embed-container">
       <iframe
