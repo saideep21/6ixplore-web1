@@ -19,7 +19,7 @@
     <section>
       <h3>Meet Our Team</h3>
       <div class="gallery">
-        <div class="member1">
+        <div class="member">
           <div class="info">
             <img class="headshot" :src="member1" alt />
             <div class="name-and-title">
@@ -37,7 +37,7 @@
             Saideep as are his ambition and commitment.
           </p>
         </div>
-        <div class="member2">
+        <div class="member">
           <div class="info">
             <img class="headshot" :src="member2" alt />
             <div class="name-and-title">
@@ -56,7 +56,7 @@
           </p>
         </div>
 
-        <div class="member3">
+        <div class="member">
           <div class="info">
             <img class="headshot" :src="member3" alt />
             <div class="name-and-title">
@@ -65,7 +65,7 @@
             </div>
           </div>
           <p>
-            A lifelong learner at heart, Maureen is a Kinesiology-student turned
+            A lifelong learner at heart, Maureen is a B.Kin graduate turned
             front-end developer and UI/UX designer. She is responsible for the
             interface design, as well as this website! From her degree, she uses
             her soft-skills, ethical considerations, and understanding of the
@@ -73,9 +73,16 @@
             in responsive web design, accessibility, SEO, and graphic design.
           </p>
         </div>
-        <div class="member4">
+        <!-- ADD 2 INTERNS BELOW -->
+      </div>
+    </section>
+    <!-- Contributors -->
+    <section>
+      <h3>Contributors</h3>
+      <div class="gallery">
+        <div class="member">
           <div class="info">
-            <img class="headshot" :src="member4" alt />
+            <img class="headshot" :src="member6" alt />
             <div class="name-and-title">
               <h4>Kay Otsubo</h4>
               <p class="title">UX Researcher</p>
@@ -90,16 +97,6 @@
             skills, she is a true team player as she also lends a hand to our
             social media and HR as we actively grow our company.
           </p>
-        </div>
-        <div class="member5">
-          <div class="info">
-            <img class="headshot" :src="member5" alt />
-            <div class="name-and-title">
-              <h4>Timothy Samson</h4>
-              <p class="title">Strategy Coordinator</p>
-            </div>
-          </div>
-          <p>N/A</p>
         </div>
       </div>
     </section>
@@ -157,6 +154,7 @@ import member2 from "@/assets/Members/member2.png";
 import member3 from "@/assets/Members/member3.png";
 import member4 from "@/assets/Members/member4.png";
 import member5 from "@/assets/Members/member5.png";
+import member6 from "@/assets/Members/member6.png";
 import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
@@ -171,6 +169,7 @@ export default {
     member3,
     member4,
     member5,
+    member6,
     copyrightIcon
   })
 };
@@ -209,11 +208,7 @@ p {
   padding-bottom: 2.5em;
 }
 
-.member1,
-.member2,
-.member3,
-.member4,
-.member5,
+.member,
 .speed,
 .adaptable,
 .commitment,
@@ -283,11 +278,7 @@ p {
     flex-wrap: wrap;
   }
 
-  .member1,
-  .member2,
-  .member3,
-  .member4,
-  .member5 {
+  .member {
     padding-right: 5.5em;
     width: 32%;
   }

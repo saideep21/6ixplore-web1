@@ -69,21 +69,25 @@ Minh H.
 iOS Developer
 Minh is a Minimum Viable Product (MVP) developer with a passion for good code, focused on efficiency, and a love for new projects.
 
-Kay O.
-UX Researcher
-With her master’s degree in psychology and knowledge in UX, Kay brings a genuine curiosity and keen eye for detail in the research and design of our product to ensure it meets our user’s needs. As the lead researcher, she meticulously ensures that our users come first while achieving our business’ objectives. With her versatile skills, she is a true team player as she also lends a hand to our social media and HR as we actively grow our company.
-
 Maureen T.
 UI/UX Designer
-A lifelong learner at heart, Maureen is a Kinesiology-student turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
+A lifelong learner at heart, Maureen is a B.Kin graduate turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
+
+Ozair
+xxx
+
+Vishrutha
+xxx
 
 Clayon L.
 Operations Coordinator
 Clayon is a recent UofT graduate whose passion lies in enhancing the student experience. Using the knowledge he gained from his B.Comm degree in Accounting, Clayon is responsible for the design and implementationof the accounting, legal, and charity frameworks of the organization. Having come to Canada within the last few years, he hopes everyone is able to explore the diverse cuisines available just as much as he has!
 
-Timothy S.
-Strategy
-N/A
+### Contributors
+
+Kay O.
+UX Researcher
+With her master’s degree in psychology and knowledge in UX, Kay brings a genuine curiosity and keen eye for detail in the research and design of our product to ensure it meets our user’s needs. As the lead researcher, she meticulously ensures that our users come first while achieving our business’ objectives. With her versatile skills, she is a true team player as she also lends a hand to our social media and HR as we actively grow our company.
 
 ### Our Values
 
