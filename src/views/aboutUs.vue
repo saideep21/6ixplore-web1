@@ -73,7 +73,26 @@
             in responsive web design, accessibility, SEO, and graphic design.
           </p>
         </div>
-        <!-- ADD 2 INTERNS BELOW -->
+
+        <div class="member">
+          <div class="info">
+            <img class="headshot" :src="member4" alt />
+            <div class="name-and-title">
+              <h4>Vishu Tupili</h4>
+              <p class="title">iOS Developer</p>
+            </div>
+          </div>
+          <p>
+            Vishu is a 3rd year Computer Engineering student at UofT with a
+            passion for software development and entrepreneurship. She is a
+            lifelong learner who is excited to work in a team that thrives on
+            innovation. She is responsible for developing the front-end of the
+            6ixplore iOS app. She looks forward to launching a responsive and
+            intuitive app for users to discover and order from local
+            restaurants!
+          </p>
+        </div>
+        <!-- ADD BELOW -->
       </div>
     </section>
     <!-- Contributors -->

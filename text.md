@@ -73,11 +73,11 @@ Maureen T.
 UI/UX Designer
 A lifelong learner at heart, Maureen is a B.Kin graduate turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
 
-Ozair
+Mohammed Ozair
 xxx
 
-Vishrutha
-xxx
+Vishu Tupili
+Vishu is a 3rd year Computer Engineering student at UofT with a passion for software development and entrepreneurship. She is a lifelong learner who is excited to work in a team that thrives on innovation. She is responsible for developing the front-end of the 6ixplore iOS app. She looks forward to launching a responsive and intuitive app for users to discover and order from local restaurants!
 
 Clayon L.
 Operations Coordinator
