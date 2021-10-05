@@ -63,7 +63,7 @@
       </p>
     </section>
     <p class="credits">
-      &copy; 6ixplore 2020
+      &copy; 6ixplore 2021
     </p>
   </div>
 </template>
