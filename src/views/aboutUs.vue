@@ -21,7 +21,7 @@
       <div class="gallery">
         <div class="member">
           <div class="info">
-            <img class="headshot" :src="member1" alt />
+            <img class="headshot" :src="sai2x" alt />
             <div class="name-and-title">
               <h4>Saideep Kumar</h4>
               <p class="title">Founder and CEO</p>
@@ -37,46 +37,28 @@
             Saideep as are his ambition and commitment.
           </p>
         </div>
-        <div class="member">
-          <div class="info">
-            <img class="headshot" :src="member2" alt />
-            <div class="name-and-title">
-              <h4>Clayon Levy</h4>
-              <p class="title">Operations Coordinator</p>
-            </div>
-          </div>
-          <p>
-            Clayon is a recent UofT graduate whose passion lies in enhancing the
-            student experience. Using the knowledge he gained from his B.Comm
-            degree in Accounting, Clayon is responsible for the design and
-            implementation of the accounting, legal, and charity frameworks of
-            the organization. Having come to Canada within the last few years,
-            he hopes everyone is able to explore the diverse cuisines available
-            just as much as he has!
-          </p>
-        </div>
 
         <div class="member">
           <div class="info">
-            <img class="headshot" :src="member3" alt />
+            <img class="headshot" :src="maureen2x" alt />
             <div class="name-and-title">
               <h4>Maureen T'o</h4>
               <p class="title">UI/UX Designer</p>
             </div>
           </div>
           <p>
-            A lifelong learner at heart, Maureen is a B.Kin graduate turned
-            front-end developer and UI/UX designer. She is responsible for the
-            interface design, as well as this website! From her degree, she uses
-            her soft-skills, ethical considerations, and understanding of the
-            way people learn to enhance digital experiences. She is interested
-            in responsive web design, accessibility, SEO, and graphic design.
+            A lifelong learner at heart, Maureen is a B.Kin graduate by day, and
+            front-end developer and UI/UX designer by night. From her degree,
+            she uses her soft-skills, ethical considerations, and understanding
+            of the way people learn to enhance digital experiences. She is
+            interested in digital interface design and development, health
+            science, and anything requiring people-skills!
           </p>
         </div>
 
         <div class="member">
           <div class="info">
-            <img class="headshot" :src="member4" alt />
+            <img class="headshot" :src="vishu2x" alt />
             <div class="name-and-title">
               <h4>Vishu Tupili</h4>
               <p class="title">iOS Developer</p>
@@ -101,7 +83,26 @@
       <div class="gallery">
         <div class="member">
           <div class="info">
-            <img class="headshot" :src="member6" alt />
+            <img class="headshot" :src="clayon2x" alt />
+            <div class="name-and-title">
+              <h4>Clayon Levy</h4>
+              <p class="title">Operations Coordinator</p>
+            </div>
+          </div>
+          <p>
+            Clayon is a recent UofT graduate whose passion lies in enhancing the
+            student experience. Using the knowledge he gained from his B.Comm
+            degree in Accounting, Clayon is responsible for the design and
+            implementation of the accounting, legal, and charity frameworks of
+            the organization. Having come to Canada within the last few years,
+            he hopes everyone is able to explore the diverse cuisines available
+            just as much as he has!
+          </p>
+        </div>
+
+        <div class="member">
+          <div class="info">
+            <img class="headshot" :src="kay2x" alt />
             <div class="name-and-title">
               <h4>Kay Otsubo</h4>
               <p class="title">UX Researcher</p>
@@ -115,6 +116,20 @@
             first while achieving our business’ objectives. With her versatile
             skills, she is a true team player as she also lends a hand to our
             social media and HR as we actively grow our company.
+          </p>
+        </div>
+
+        <div class="member">
+          <div class="info">
+            <img class="headshot" :src="empty" alt />
+            <div class="name-and-title">
+              <h4>Minh H.</h4>
+              <p class="title">iOS Developer</p>
+            </div>
+          </div>
+          <p>
+            Minh is a Minimum Viable Product (MVP) developer with a passion for
+            good code, focused on efficiency, and a love for new projects.
           </p>
         </div>
       </div>
@@ -160,21 +175,20 @@
       </div>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt="" aria-hidden="true" />
-      Copyright 6ixplore 2020
+      &copy; 6ixplore 2020
     </p>
   </div>
 </template>
 
 <script>
 import webDecorAbout from "@/assets/webDecorAbout.svg";
-import member1 from "@/assets/Members/member1.png";
-import member2 from "@/assets/Members/member2.png";
-import member3 from "@/assets/Members/member3.png";
-import member4 from "@/assets/Members/member4.png";
-import member5 from "@/assets/Members/member5.png";
-import member6 from "@/assets/Members/member6.png";
-import copyrightIcon from "@/assets/copyrightIcon.svg";
+import sai2x from "@/assets/Members/sai@2x.png";
+import maureen2x from "@/assets/Members/maureen@2x.png";
+import vishu2x from "@/assets/Members/vishu@2x.png";
+import ozair2x from "@/assets/Members/ozair@2x.png";
+import clayon2x from "@/assets/Members/clayon@2x.png";
+import kay2x from "@/assets/Members/kay@2x.png";
+import empty from "@/assets/Members/empty@2x.png";
 
 export default {
   name: "About",
@@ -183,13 +197,13 @@ export default {
   },
   data: () => ({
     webDecorAbout,
-    member1,
-    member2,
-    member3,
-    member4,
-    member5,
-    member6,
-    copyrightIcon
+    sai2x,
+    maureen2x,
+    vishu2x,
+    ozair2x,
+    clayon2x,
+    kay2x,
+    empty
   })
 };
 </script>

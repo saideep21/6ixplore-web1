@@ -27,19 +27,14 @@
         </ul>
       </div>
       <p class="secondary-text">
-        For <strong>specific job positions</strong>, visit our LinkedIn:
+        For <strong>specific job positions</strong>, visit our
+        <a
+          href="https://www.linkedin.com/company/6ixplore/about/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
       </p>
-      <a
-        href="https://www.linkedin.com/company/6ixplore/about/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          class="linkedin-profile"
-          :src="LinkedIn"
-          alt="Visit 6ixplore LinkedIn"
-        />
-      </a>
     </section>
 
     <section>
@@ -68,16 +63,12 @@
       </p>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt="" aria-hidden="true" />
-      Copyright 6ixplore 2020
+      &copy; 6ixplore 2020
     </p>
   </div>
 </template>
 
 <script>
-import LinkedIn from "@/assets/LinkedIn.svg";
-import copyrightIcon from "@/assets/copyrightIcon.svg";
-
 export default {
   name: "Join",
   metaInfo: {
@@ -88,9 +79,7 @@ export default {
       "Self-starters",
       "Those who have the ability to adapt to change",
       "Individuals with amazing interpersonal skills!"
-    ],
-    LinkedIn,
-    copyrightIcon
+    ]
   })
 };
 </script>
@@ -105,7 +94,6 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 10em;
-  /* padding: 0 2em; */
   text-align: center;
 }
 
@@ -142,12 +130,6 @@ blockquote p:nth-last-child(1) {
 h3 {
   margin-top: 8.75em;
   padding-bottom: 2em;
-}
-
-.linkedin-profile {
-  width: 2em;
-  height: auto;
-  margin: -1.5em 0 4em 0;
 }
 
 .list-1 {

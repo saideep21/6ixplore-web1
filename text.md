@@ -71,9 +71,10 @@ Minh is a Minimum Viable Product (MVP) developer with a passion for good code, f
 
 Maureen T.
 UI/UX Designer
-A lifelong learner at heart, Maureen is a B.Kin graduate turned front-end developer and UI/UX designer. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in responsive web design, accessibility, SEO, and graphic design.
+A lifelong learner at heart, Maureen is a B.Kin graduate by day, and front-end developer and UI/UX designer by night. From her degree, she uses her soft-skills, ethical considerations, and understanding of the way people learn to enhance digital experiences. She is interested in digital interface design and development, health science, and anything requiring people-skills!
 
 Mohammed Ozair
+Backend Developer
 xxx
 
 Vishu Tupili

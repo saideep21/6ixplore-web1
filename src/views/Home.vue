@@ -96,8 +96,7 @@
       <h4>Currently Incubating... Stay tuned!</h4>
     </section>
     <p class="credits">
-      <img :src="copyrightIcon" alt="" aria-hidden="true" /> Copyright 6ixplore
-      2020
+      &copy; 6ixplore 2020
     </p>
   </div>
 </template>
@@ -106,7 +105,6 @@
 import webDecorHome from "@/assets/webDecorHome.svg";
 import Features from "@/components/Features.vue";
 import illustrationPerson from "@/assets/illustrationPerson.svg";
-import copyrightIcon from "@/assets/copyrightIcon.svg";
 
 export default {
   name: "Home",
@@ -116,8 +114,7 @@ export default {
   },
   data: () => ({
     webDecorHome,
-    illustrationPerson,
-    copyrightIcon
+    illustrationPerson
   }),
   components: {
     Features
