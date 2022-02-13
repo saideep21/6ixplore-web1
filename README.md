@@ -18,8 +18,33 @@ Built with:
 ## Project setup
 
 ```
-npm install
+open code editor and new terminal session
+
+cd to the filesystem path you want the local repo to be stored (e.g. /Desktop)
+
+in terminal session, `git clone <HTTPS-LINK>` and wait for download
+
+npm install to install necessary node_modules
 ```
+
+### Previous dev's development process (pushing local changes to remote)
+
+Dev note: Yes, this process can absolutely be automated with [CI/CD](https://circleci.com/continuous-integration/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--uscan-en-cicd-maxConv-lg-nb&utm_term=g_e-ci%20cd_c__toolchain_20210603&utm_content=sem-google-dg--uscan-en-cicd-maxConv-lg-nb_keyword-text_eta-cicd_mixed-&gclid=CjwKCAiA9aKQBhBREiwAyGP5lY08c34l1PPSVor1fQWm2CZt2vvUJwieB0csT1uX3FP_48id26MAuhoC5pIQAvD_BwE) using tools like [TravisCI](https://travis-ci.org) or [CircleCI](https://circleci.com).
+
+```
+npm run build
+
+git add . ("." is for adding all tracked/changed files to stage or get ready for commit - otherwise, can commit specific files with git add <FILE-NAME>)
+
+git commit -m "<GOOD-COMMIT-MSG>"
+
+git push <HTTPS-LINK> master (the HTTPS-LINK here is if you did not initialize a connection b/w GitHub repo AND your local workspace) - works same way as git push origin master
+
+go to hosting service to deploy changes
+
+```
+
+## Basic development scripts for Vue CLI
 
 ### Compiles and hot-reloads for development
 
