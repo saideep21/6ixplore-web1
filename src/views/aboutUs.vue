@@ -40,41 +40,17 @@
 
         <div class="member">
           <div class="info">
-            <img class="headshot" :src="maureen2x" alt />
+            <img class="headshot" :src="ozair2x" alt />
             <div class="name-and-title">
-              <h4>Maureen T'o</h4>
-              <p class="title">UI/UX Designer</p>
+              <h4>Mohammed Ozair</h4>
+              <p class="title">Backend Developer</p>
             </div>
           </div>
           <p>
-            A lifelong learner at heart, Maureen is a B.Kin graduate by day, and
-            front-end developer and UI/UX designer by night. From her degree,
-            she uses her soft-skills, ethical considerations, and understanding
-            of the way people learn to enhance digital experiences. She is
-            interested in digital interface design and development, health
-            science, and anything requiring people-skills!
+            404 bio not found.
           </p>
         </div>
-
-        <div class="member">
-          <div class="info">
-            <img class="headshot" :src="vishu2x" alt />
-            <div class="name-and-title">
-              <h4>Vishu Tupili</h4>
-              <p class="title">iOS Developer</p>
-            </div>
-          </div>
-          <p>
-            Vishu is a 3rd year Computer Engineering student at UofT with a
-            passion for software development and entrepreneurship. She is a
-            lifelong learner who is excited to work in a team that thrives on
-            innovation. She is responsible for developing the front-end of the
-            6ixplore iOS app. She looks forward to launching a responsive and
-            intuitive app for users to discover and order from local
-            restaurants!
-          </p>
-        </div>
-        <!-- ADD BELOW -->
+        <!-- *** ADD MEMBERS BELOW *** -->
       </div>
     </section>
     <!-- Contributors -->
@@ -130,6 +106,43 @@
           <p>
             Minh is a Minimum Viable Product (MVP) developer with a passion for
             good code, focused on efficiency, and a love for new projects.
+          </p>
+        </div>
+
+        <div class="member">
+          <div class="info">
+            <img class="headshot" :src="vishu2x" alt />
+            <div class="name-and-title">
+              <h4>Vishu Tupili</h4>
+              <p class="title">iOS Developer</p>
+            </div>
+          </div>
+          <p>
+            Vishu is a 3rd year Computer Engineering student at UofT with a
+            passion for software development and entrepreneurship. She is a
+            lifelong learner who is excited to work in a team that thrives on
+            innovation. She is responsible for developing the front-end of the
+            6ixplore iOS app. She looks forward to launching a responsive and
+            intuitive app for users to discover and order from local
+            restaurants!
+          </p>
+        </div>
+
+        <div class="member">
+          <div class="info">
+            <img class="headshot" :src="maureen2x" alt />
+            <div class="name-and-title">
+              <h4>Maureen T'o</h4>
+              <p class="title">UX Designer</p>
+            </div>
+          </div>
+          <p>
+            A lifelong learner at heart, Maureen is a B.Kin graduate by day, and
+            UX designer and Vue/Nuxt developer by night. From her degree, she
+            uses her soft-skills, ethical considerations, and understanding of
+            the way people learn to enhance digital experiences. She is
+            interested in user experience design and front-end development, plus
+            any new topic she's picked up!
           </p>
         </div>
       </div>
