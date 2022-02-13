@@ -48,6 +48,8 @@ go to hosting service to deploy changes
 
 ### Compiles and hot-reloads for development
 
+Dev note: We run `npm run start`
+
 ```
 npm run serve
 ```
@@ -84,5 +86,5 @@ N/A
 
 # Credits
 
-- Maintainer, Project Lead [@maureento8888](https://github.com/maureento8888)
+- Former Dev, Project Lead [@maureento8888](https://github.com/maureento8888)
 - Owner of repo [@saideep21](https://github.com/saideep21)
