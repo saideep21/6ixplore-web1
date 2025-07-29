@@ -11,7 +11,6 @@ Built with:
 
 - Vue.js v2
 - HTML / CSS
-- 2 days' sprint and late night by [@maureento8888](https://github.com/maureento8888)
 
 # Getting Started
 
@@ -86,5 +85,5 @@ N/A
 
 # Credits
 
-- Former Dev, Project Lead [@maureento8888](https://github.com/maureento8888)
+- Former Dev, Project Lead [@eTee15](https://github.com/eTee15)
 - Owner of repo [@saideep21](https://github.com/saideep21)
